@@ -17,7 +17,7 @@ enableRobotsTXT = true
 [params]
   google_analytics_id = ""
   twitter_handle = "@holamugar"
-  showAuthorOnHomepage = true
+  showAuthorOnHomepage = false
   showAuthorOnPosts = true
   showPostsOnHomepage = false
   addDot = true

@@ -1,5 +1,5 @@
 ---
-title: Distributed Magento Contribution Day el 24 de marzo
+title: "Distributed Magento Contribution Day el 24 de marzo"
 date: 2018-03-15
 categories: ["Meetups"]
 tags: ["buenos aires","hackaton","magento","meetup"]

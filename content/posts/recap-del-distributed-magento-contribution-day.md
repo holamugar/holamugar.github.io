@@ -1,5 +1,5 @@
 ---
-title: Recap del Distributed Magento Contribution Day
+title: "Recap del Distributed Magento Contribution Day"
 date: 2018-03-31
 categories: ["Meetups"]
 tags: ["buenos aires","hackaton","magento","meetup"]

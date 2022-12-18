@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>buenos aires on Mugar</title>
+    <link>/tags/buenos-aires/</link>
+    <description>Recent content in buenos aires on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/buenos-aires/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coronavirus y las meetups</title>
+      <link>/posts/coronavirus-y-las-meetups/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/coronavirus-y-las-meetups/</guid>
+      <description>En vista de las recomendaciones del Ministerio de Salud de la Nación, para ayudar a prevenir la transmisión del coronavirus (CoVid-19) en el país, hemos decidido suspender todas nuestras meetups presenciales hasta nuevo aviso, incluída la meetup en Mar del Plata de este sábado.
+Cuando estén dadas las condiciones necesarias, retomaremos el calendario ideado a fines del año pasado.
+Les solicitamos a todos quienes participan del ecosistema que recuerden que quienes hayan viajado recientemente a Europa, Estados Unidos, Irán, Japón, China o Corea del Sur deben permanecer en su casa por 14 días, aunque no tengan síntomas.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #3: hackaton MugAr en Buenos Aires</title>
+      <link>/posts/meetup-3-hackaton-mugar-en-buenos-aires/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-3-hackaton-mugar-en-buenos-aires/</guid>
+      <description>Primer hackatón MugAr. Tercer meetup.
+El sábado 9 de junio nos volvemos a juntar. Esta vez vamos a dedicarnos 100% al código y a los primeros módulos que decidamos portar a los repositorios de MugAr.
+Para participar, sólo tenés que seguir este link: https://www.meetup.com/Magento-Meetup-Buenos-Aires/events/250829422/
+Los temas que intentaremos abordar serán:
+Definir estilos mínimos de código que se aceptará. Definir y compartir (y enseñar) cómo aplicar tests a esos módulos. Definir sobre qué módulos buscaremos trabajar en una primera etapa.</description>
+    </item>
+    
+    <item>
+      <title>Recap del Distributed Magento Contribution Day</title>
+      <link>/posts/recap-del-distributed-magento-contribution-day/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-distributed-magento-contribution-day/</guid>
+      <description>Hace una semana nada más nos juntamos por primera vez para participar del Distributed Magento Contribution Day.
+El meetup tenía doble interrogante: ¿cómo se come eso del Contribution Day? y ¿vendrá alguien?.
+Por suerte supimos ser bastante puntuales y ya a la mañana (nuestra) estábamos casi todos.
+Desde el comienzo nos pusimos ya a buscar issues y a testear.
+Nos subimos al streaming.
+Y ya habiendo entrado en ritmo, salieron algunos PR.</description>
+    </item>
+    
+    <item>
+      <title>Distributed Magento Contribution Day el 24 de marzo</title>
+      <link>/posts/distributed-magento-contribution-day-el-24-de-marzo/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/distributed-magento-contribution-day-el-24-de-marzo/</guid>
+      <description>Primera reunión oficial de MugAr.
+El sábado 24 de marzo vamos a participar del Distributed Magento Contribution Day.
+Si te interesa participar para poder colaborar resolviendo issues de la plataforma, sólo tenés que anotarte acá: https://www.meetup.com/es/Magento-Meetup-Buenos-Aires/events/248517616/
+El evento se llevará a cabo de forma simultánea desde varios países.
+¿Qué vamos a hacer? Se trabajará sobre 5 temas:
+Resolver issues de Magento2 reportados en GitHub. MSI (Multi-Source Inventory): el nuevo sistema de gestión de stock múltiple.</description>
+    </item>
+    
+  </channel>
+</rss>

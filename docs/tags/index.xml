@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mugar</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>extensiones</title>
+      <link>/tags/extensiones/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/extensiones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mugar-argentina-regions</title>
+      <link>/tags/mugar-argentina-regions/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mugar-argentina-regions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mugar-argentina-setup</title>
+      <link>/tags/mugar-argentina-setup/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mugar-argentina-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mugar-language-es_ar</title>
+      <link>/tags/mugar-language-es_ar/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mugar-language-es_ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>buenos aires</title>
+      <link>/tags/buenos-aires/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/buenos-aires/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cordoba</title>
+      <link>/tags/cordoba/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cordoba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magento</title>
+      <link>/tags/magento/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/magento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mar del plata</title>
+      <link>/tags/mar-del-plata/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mar-del-plata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>/tags/meetup/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rosario</title>
+      <link>/tags/rosario/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rosario/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tandil</title>
+      <link>/tags/tandil/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tandil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backlog</title>
+      <link>/tags/backlog/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/backlog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roadmap</title>
+      <link>/tags/roadmap/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/roadmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trabajo</title>
+      <link>/tags/trabajo/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/trabajo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackaton</title>
+      <link>/tags/hackaton/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hackaton/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

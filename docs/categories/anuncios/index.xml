@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anuncios on Mugar</title>
+    <link>/categories/anuncios/</link>
+    <description>Recent content in Anuncios on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/anuncios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡Chau 2020!</title>
+      <link>/posts/chau-2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/chau-2020/</guid>
+      <description>Pasó el tercer año de este experimento que comenzó con un asado en febrero de 2018.
+No vamos a comenzar hablando de lo difícil que fue el 2020, ya todos lo tenemos más que claro.
+Si vamos a mantener las costumbres y los rituales, por lo que vamos a repasar qué hicimos, qué estamos haciendo, qué no pudimos terminar y hacia dónde parece que estamos intentando mirar.
+En enero arrancamos bastante pila, tratando de reactivar lo que habíamos dejado inconcluso.</description>
+    </item>
+    
+    <item>
+      <title>Coronavirus y las meetups</title>
+      <link>/posts/coronavirus-y-las-meetups/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/coronavirus-y-las-meetups/</guid>
+      <description>En vista de las recomendaciones del Ministerio de Salud de la Nación, para ayudar a prevenir la transmisión del coronavirus (CoVid-19) en el país, hemos decidido suspender todas nuestras meetups presenciales hasta nuevo aviso, incluída la meetup en Mar del Plata de este sábado.
+Cuando estén dadas las condiciones necesarias, retomaremos el calendario ideado a fines del año pasado.
+Les solicitamos a todos quienes participan del ecosistema que recuerden que quienes hayan viajado recientemente a Europa, Estados Unidos, Irán, Japón, China o Corea del Sur deben permanecer en su casa por 14 días, aunque no tengan síntomas.</description>
+    </item>
+    
+    <item>
+      <title>Roadmap público y canal para ofertas de trabajo en Slack</title>
+      <link>/posts/roadmap-publico-y-canal-para-ofertas-de-trabajo-en-slack/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/roadmap-publico-y-canal-para-ofertas-de-trabajo-en-slack/</guid>
+      <description>Roadmap Uno de los temas que se conversaron en la última grooming tiene que ver con armar un plan sobre lo que decimos que queremos hacer.
+Hasta el momento todo se conversa y se acuerda, pero nunca queda fijado lo que decidimos (y gran parte no se cumple).
+Por este motivo vamos a tener un roadmap público para ordenar qué tenemos intención de desarrollar y en qué orden (aproximado).
+La idea es armar planes modestos, por trimestre.</description>
+    </item>
+    
+    <item>
+      <title>¡Chau 2019!</title>
+      <link>/posts/chau-2019/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/chau-2019/</guid>
+      <description>Se está yendo nuestro segundo año y, para no perder la costumbre, nos toca repasar qué hicimos, qué estamos haciendo y qué no pudimos terminar.
+A diferencia del año pasado, durante el primer semestre estuvimos menos activos, pero luego la cosa cambió.
+En febrero publicamos una actualización de Mugar_ArgentinaRegions.
+Y también publicamos el primer backlog. La idea es organizar acciones y tareas de forma conjunta con todos los miembros que participen de las grooming mensuales.</description>
+    </item>
+    
+    <item>
+      <title>¡Hola mundo!</title>
+      <link>/posts/hola-mundo/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hola-mundo/</guid>
+      <description>¿Qué es MugAr? Es un grupo de usuarios, desarrolladores, diseñadores, sysadmins y/o vendedores que usan o trabajan con la plataforma Magento.
+Porque hay que aclararlo, no tenemos NINGUNA relación directa con Magento Inc.
+¿Qué estamos haciendo? Entre otras cosas, generar y mantener módulos genéricos (esos que todas las tiendas usan) y que entendemos no hacen al negocio. Por ejemplo: traducciones, logística y gateways de pagos.
+Normalmente nos encontramos con problemas que cada uno resuelve por su lado.</description>
+    </item>
+    
+  </channel>
+</rss>

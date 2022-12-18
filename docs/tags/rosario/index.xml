@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rosario on Mugar</title>
+    <link>/tags/rosario/</link>
+    <description>Recent content in rosario on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/rosario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coronavirus y las meetups</title>
+      <link>/posts/coronavirus-y-las-meetups/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/coronavirus-y-las-meetups/</guid>
+      <description>En vista de las recomendaciones del Ministerio de Salud de la Nación, para ayudar a prevenir la transmisión del coronavirus (CoVid-19) en el país, hemos decidido suspender todas nuestras meetups presenciales hasta nuevo aviso, incluída la meetup en Mar del Plata de este sábado.
+Cuando estén dadas las condiciones necesarias, retomaremos el calendario ideado a fines del año pasado.
+Les solicitamos a todos quienes participan del ecosistema que recuerden que quienes hayan viajado recientemente a Europa, Estados Unidos, Irán, Japón, China o Corea del Sur deben permanecer en su casa por 14 días, aunque no tengan síntomas.</description>
+    </item>
+    
+  </channel>
+</rss>

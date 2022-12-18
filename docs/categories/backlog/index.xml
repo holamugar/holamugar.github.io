@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backlog on Mugar</title>
+    <link>/categories/backlog/</link>
+    <description>Recent content in Backlog on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/backlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backlog 2020.03</title>
+      <link>/posts/backlog-2020-03/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2020-03/</guid>
+      <description>El viernes pasado, como cada primer viernes de mes, se llevo a cabo la grooming session en la que intentamos repasar qué hicimos, qué queremos hacer y qué podemos hacer mejor.
+La reunión se dividió en dos temas:
+¿Cómo lograr mejor tracción y participación? ¿Cómo avanzar con los módulos que siempre decimos que queremos desarrollar? Con respecto a lo primero, se siguen pensando acciones o formas que ayuden a reducir cualquier fricción que pudiera presentarse para aquellos que aún no han participado, pero tienen ganas (y no se animaron todavía).</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2020.01</title>
+      <link>/posts/backlog-2020-01/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2020-01/</guid>
+      <description>El viernes pasado, como cada mes, se realizó una nueva grooming y se repasaron qué cosas se habían hecho y cuáles no desde la última llamada.
+Dado que no se hizo demasiado (es esperable en diciembre), la reunión fue bastante breve, pero se plantearon algunas cosas de aquí en más.
+Cada tanto mencionamos el roadmap, pero hasta ahora era algo abstracto (o hablado). En estos días vamos a estar publicando en el sitio el roadmap de este año, para que haya una guía pública de aquellos temas que decimos queremos desarrollar.</description>
+    </item>
+    
+  </channel>
+</rss>

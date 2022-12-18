@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>¿Qué es MugAr? on Mugar</title>
+    <link>/</link>
+    <description>Recent content in ¿Qué es MugAr? on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡Chau 2020!</title>
+      <link>/posts/chau-2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/chau-2020/</guid>
+      <description>Pasó el tercer año de este experimento que comenzó con un asado en febrero de 2018.
+No vamos a comenzar hablando de lo difícil que fue el 2020, ya todos lo tenemos más que claro.
+Si vamos a mantener las costumbres y los rituales, por lo que vamos a repasar qué hicimos, qué estamos haciendo, qué no pudimos terminar y hacia dónde parece que estamos intentando mirar.
+En enero arrancamos bastante pila, tratando de reactivar lo que habíamos dejado inconcluso.</description>
+    </item>
+    
+    <item>
+      <title>Mugar Argentina Setup 1.0.0</title>
+      <link>/posts/mugar-argentina-setup-1-0-0/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar-argentina-setup-1-0-0/</guid>
+      <description>En la semana se estuvo trabajando en adecuar el metapaquete que intenta ser una ayuda inicial al momento de adaptar Magento a nuestro país.
+A diferencia de la versión anterior, hemos añadido el módulo de traducción a español es_AR. Además, con nueva versión de Mugar_ArgentinaRegions.
+La lista total de cambios sería:
+Se arregló y creó el paquete Mugar_Language-es_AR 1.0.0. Se normalizó estructura de Mugar_Language-es_AR y se llegó a versión 2.0.1. Se dio compatibilidad con PHP 7.</description>
+    </item>
+    
+    <item>
+      <title>Coronavirus y las meetups</title>
+      <link>/posts/coronavirus-y-las-meetups/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/coronavirus-y-las-meetups/</guid>
+      <description>En vista de las recomendaciones del Ministerio de Salud de la Nación, para ayudar a prevenir la transmisión del coronavirus (CoVid-19) en el país, hemos decidido suspender todas nuestras meetups presenciales hasta nuevo aviso, incluída la meetup en Mar del Plata de este sábado.
+Cuando estén dadas las condiciones necesarias, retomaremos el calendario ideado a fines del año pasado.
+Les solicitamos a todos quienes participan del ecosistema que recuerden que quienes hayan viajado recientemente a Europa, Estados Unidos, Irán, Japón, China o Corea del Sur deben permanecer en su casa por 14 días, aunque no tengan síntomas.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2020.03</title>
+      <link>/posts/backlog-2020-03/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2020-03/</guid>
+      <description>El viernes pasado, como cada primer viernes de mes, se llevo a cabo la grooming session en la que intentamos repasar qué hicimos, qué queremos hacer y qué podemos hacer mejor.
+La reunión se dividió en dos temas:
+¿Cómo lograr mejor tracción y participación? ¿Cómo avanzar con los módulos que siempre decimos que queremos desarrollar? Con respecto a lo primero, se siguen pensando acciones o formas que ayuden a reducir cualquier fricción que pudiera presentarse para aquellos que aún no han participado, pero tienen ganas (y no se animaron todavía).</description>
+    </item>
+    
+    <item>
+      <title>Meetup #13: S03E01</title>
+      <link>/posts/meetup-13-s03e01/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-13-s03e01/</guid>
+      <description>En diciembre hicimos público el calendario tentativo de meetups de la primera parte de este año.
+En febrero confirmamos la fecha de la primera meetup del año (aquí, aquí y aquí también).
+Hace unos días terminamos de confirmar la agenda para nuestro próximo encuentro, el sábado 14 de marzo, en Mar del Plata.
+Nos vamos a juntar en Grupo Nucleo. Para aquellos que no sepan como llegar, la dirección es Chaco 1670 (link al mapa).</description>
+    </item>
+    
+    <item>
+      <title>Roadmap público y canal para ofertas de trabajo en Slack</title>
+      <link>/posts/roadmap-publico-y-canal-para-ofertas-de-trabajo-en-slack/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/roadmap-publico-y-canal-para-ofertas-de-trabajo-en-slack/</guid>
+      <description>Roadmap Uno de los temas que se conversaron en la última grooming tiene que ver con armar un plan sobre lo que decimos que queremos hacer.
+Hasta el momento todo se conversa y se acuerda, pero nunca queda fijado lo que decidimos (y gran parte no se cumple).
+Por este motivo vamos a tener un roadmap público para ordenar qué tenemos intención de desarrollar y en qué orden (aproximado).
+La idea es armar planes modestos, por trimestre.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2020.01</title>
+      <link>/posts/backlog-2020-01/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2020-01/</guid>
+      <description>El viernes pasado, como cada mes, se realizó una nueva grooming y se repasaron qué cosas se habían hecho y cuáles no desde la última llamada.
+Dado que no se hizo demasiado (es esperable en diciembre), la reunión fue bastante breve, pero se plantearon algunas cosas de aquí en más.
+Cada tanto mencionamos el roadmap, pero hasta ahora era algo abstracto (o hablado). En estos días vamos a estar publicando en el sitio el roadmap de este año, para que haya una guía pública de aquellos temas que decimos queremos desarrollar.</description>
+    </item>
+    
+    <item>
+      <title>¡Chau 2019!</title>
+      <link>/posts/chau-2019/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/chau-2019/</guid>
+      <description>Se está yendo nuestro segundo año y, para no perder la costumbre, nos toca repasar qué hicimos, qué estamos haciendo y qué no pudimos terminar.
+A diferencia del año pasado, durante el primer semestre estuvimos menos activos, pero luego la cosa cambió.
+En febrero publicamos una actualización de Mugar_ArgentinaRegions.
+Y también publicamos el primer backlog. La idea es organizar acciones y tareas de forma conjunta con todos los miembros que participen de las grooming mensuales.</description>
+    </item>
+    
+    <item>
+      <title>Recap del Meetup #3 en Buenos Aires</title>
+      <link>/posts/recap-del-meetup-3-en-buenos-aires/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-3-en-buenos-aires/</guid>
+      <description>El sábado pasado nos juntamos otra vez, ésta vez en Buenos Aires, en las oficinas de SemExpert.
+El objetivo de este encuentro estaba (y estuvo) centrado en comenzar a escribir y mejorar módulos que fortalezcan y faciliten el uso de la plataforma para las tiendas que deban operar en Argentina.
+Cerca de las 10 AM comenzó el brainstorming.
+Las ideas no se hicieron esperar, y los puntos y contrapuntos tampoco.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #3: hackaton MugAr en Buenos Aires</title>
+      <link>/posts/meetup-3-hackaton-mugar-en-buenos-aires/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-3-hackaton-mugar-en-buenos-aires/</guid>
+      <description>Primer hackatón MugAr. Tercer meetup.
+El sábado 9 de junio nos volvemos a juntar. Esta vez vamos a dedicarnos 100% al código y a los primeros módulos que decidamos portar a los repositorios de MugAr.
+Para participar, sólo tenés que seguir este link: https://www.meetup.com/Magento-Meetup-Buenos-Aires/events/250829422/
+Los temas que intentaremos abordar serán:
+Definir estilos mínimos de código que se aceptará. Definir y compartir (y enseñar) cómo aplicar tests a esos módulos. Definir sobre qué módulos buscaremos trabajar en una primera etapa.</description>
+    </item>
+    
+    <item>
+      <title>Recap del Meetup #2 en Mar Del Plata</title>
+      <link>/posts/recap-del-meetup-2-en-mar-del-plata/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-2-en-mar-del-plata/</guid>
+      <description>El sábado se llevó a cabo el segundo encuentro de Mugar, esta vez tocó en Mar del Plata, en las oficinas de Globant.
+Se comenzó temprano (para un sábado), a las 9 AM, con la registración y el desayuno.
+Pasadas las 10 AM comenzábamos con las charlas.
+La primer charla estuvo a cargo de Sergio Andueza, Secretario de Tecnología e Innovación de Mar del Plata, donde nos contó sobre la actualidad, desafíos y oportunidades para las industrias basadas en el conocimiento.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #2 en Mar Del Plata</title>
+      <link>/posts/meetup-2-en-mar-del-plata/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-2-en-mar-del-plata/</guid>
+      <description>Siguiendo con el plan original, el segundo meetup de Mugar se muda a Mar del Plata.
+Será este sábado 5 de mayo, a partir de las 9 hs y con todo planteado para que se extienda hasta las 19 hs.
+Un evento donde desarrolladores certificados y líderes del mercado de ecommerce nos compartirán su conocimiento y experiencia acerca de:
+Magento 1 Magento 2 Migraciones Módulos M2 Progressive Web Apps Travis Buenas prácticas Certificaciones Magento Los speakers serán:</description>
+    </item>
+    
+    <item>
+      <title>Recap del Distributed Magento Contribution Day</title>
+      <link>/posts/recap-del-distributed-magento-contribution-day/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-distributed-magento-contribution-day/</guid>
+      <description>Hace una semana nada más nos juntamos por primera vez para participar del Distributed Magento Contribution Day.
+El meetup tenía doble interrogante: ¿cómo se come eso del Contribution Day? y ¿vendrá alguien?.
+Por suerte supimos ser bastante puntuales y ya a la mañana (nuestra) estábamos casi todos.
+Desde el comienzo nos pusimos ya a buscar issues y a testear.
+Nos subimos al streaming.
+Y ya habiendo entrado en ritmo, salieron algunos PR.</description>
+    </item>
+    
+    <item>
+      <title>Distributed Magento Contribution Day el 24 de marzo</title>
+      <link>/posts/distributed-magento-contribution-day-el-24-de-marzo/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/distributed-magento-contribution-day-el-24-de-marzo/</guid>
+      <description>Primera reunión oficial de MugAr.
+El sábado 24 de marzo vamos a participar del Distributed Magento Contribution Day.
+Si te interesa participar para poder colaborar resolviendo issues de la plataforma, sólo tenés que anotarte acá: https://www.meetup.com/es/Magento-Meetup-Buenos-Aires/events/248517616/
+El evento se llevará a cabo de forma simultánea desde varios países.
+¿Qué vamos a hacer? Se trabajará sobre 5 temas:
+Resolver issues de Magento2 reportados en GitHub. MSI (Multi-Source Inventory): el nuevo sistema de gestión de stock múltiple.</description>
+    </item>
+    
+    <item>
+      <title>¡Hola mundo!</title>
+      <link>/posts/hola-mundo/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hola-mundo/</guid>
+      <description>¿Qué es MugAr? Es un grupo de usuarios, desarrolladores, diseñadores, sysadmins y/o vendedores que usan o trabajan con la plataforma Magento.
+Porque hay que aclararlo, no tenemos NINGUNA relación directa con Magento Inc.
+¿Qué estamos haciendo? Entre otras cosas, generar y mantener módulos genéricos (esos que todas las tiendas usan) y que entendemos no hacen al negocio. Por ejemplo: traducciones, logística y gateways de pagos.
+Normalmente nos encontramos con problemas que cada uno resuelve por su lado.</description>
+    </item>
+    
+    <item>
+      <title>Código de Conducta</title>
+      <link>/codigo-de-conducta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/codigo-de-conducta/</guid>
+      <description>Nuestro compromiso Nosotros, como miembros, contribuyentes y administradores nos comprometemos a hacer de la participación en nuestra comunidad una experiencia libre de acoso para todo el mundo, independientemente de la edad, dimensión corporal, minusvalía visible o invisible, etnicidad, características sexuales, identidad y expresión de género, nivel de experiencia, educación, nivel socio-económico, nacionalidad, apariencia personal, raza, religión, o identidad u orientación sexual.
+Nuestros estándares Ejemplos de comportamiento que contribuyen a crear un ambiente positivo para nuestra comunidad:</description>
+    </item>
+    
+  </channel>
+</rss>

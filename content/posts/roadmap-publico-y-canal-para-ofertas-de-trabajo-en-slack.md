@@ -1,8 +1,8 @@
 ---
 title: "Roadmap público y canal para ofertas de trabajo en Slack"
 date: 2020-01-07
-categories: ["Meetups"]
-tags: ["magento","mar del plata","meetup"]
+categories: ["Anuncios"]
+tags: ["roadmap","trabajo"]
 description: "Uno de los temas que se conversaron en la última grooming tiene que ver con armar un plan sobre lo que decimos que queremos hacer."
 image: images/posts/2020/01/2020-01-07-01.png
 ---

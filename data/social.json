@@ -1,0 +1,34 @@
+{
+  "links": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/holamugar",
+      "image": "images/social/facebook.png"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/holamugar",
+      "image": "images/social/github.png"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/holamugar",
+      "image": "images/social/instagram.png"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/company/mugar",
+      "image": "images/social/linkedin.png"
+    },
+    {
+      "name": "Slack",
+      "url": "https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg",
+      "image": "images/social/slack.png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/holamugar",
+      "image": "images/social/twitter.png"
+    }
+  ]
+}

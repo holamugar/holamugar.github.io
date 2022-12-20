@@ -111,7 +111,7 @@ Si tenés alguna pregunta con respecto a estas pautas, no dudes en comunicarte e
 
 ## Atribución
 
-Este Código de Conducta es una adaptación del Contributor Covenant, versión 2.0, disponible en https://www.contributor-covenant.org/es/version/2/0/code_of_conduct.html.
+Este Código de Conducta es una adaptación del Contributor Covenant, versión 2.0, disponible [aquí](https://www.contributor-covenant.org/es/version/2/0/code_of_conduct.html).
 
 Las Guías de Impacto en la Comunidad están inspiradas en la [escalera de aplicación del código de conducta de Mozilla](https://github.com/mozilla/diversity).
 

@@ -55,6 +55,17 @@ Y también publicamos el primer backlog. La idea es organizar acciones y tareas 
     </item>
     
     <item>
+      <title>Nuestras meetups</title>
+      <link>/posts/nuestras-meetups/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/nuestras-meetups/</guid>
+      <description>Seguimos haciendo orden y trabajando para ser más prolijos.
+En estos años hemos estado organizando meetups en 5 ciudades. Para cada meetup tenemos una cuenta en meetup.com, en la cual pueden ver cuándo habrá una nueva reunión y ayudarnos a confirmar asistencias.
+El pequeño ajuste cualitativo que hemos hecho ahora fue el de agregar el link a nuestro menú (aquí a la izquierda) para listar cada una de las meetups, con los links de cada una, para que puedan anotarse y sea más fácil localizarlas.</description>
+    </item>
+    
+    <item>
       <title>¡Hola mundo!</title>
       <link>/posts/hola-mundo/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>

@@ -123,6 +123,19 @@ El rol de Administrador implica que se debe procurar la adherencia al Código de
     </item>
     
     <item>
+      <title>Backlog 2019.12</title>
+      <link>/posts/backlog-2019-12/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-12/</guid>
+      <description>Retomamos esto que mal llamamos Backlog (si alguien tiene una sugerencia superadora, bienvenida sea).
+El viernes pasado tuvimos nuestra grooming mensual y se acordaron varias acciones.
+El eje central estuvo en Github y en los módulos que siempre decimos que quisiéramos escribir para simplificar la configuración y uso de Magento en Argentina.
+Finalmente, luego de tener publicados Mugar_ArgentinaRegions y el meta-paquete Mugar_ArgentinaSetup, retomamos un plan a corto plazo.
+Se repasó la discusión sobre por qué es necesario un tipo y número de documento tanto para el Billing como para el Shipping.</description>
+    </item>
+    
+    <item>
       <title>Recap del Meetup #3 en Buenos Aires</title>
       <link>/posts/recap-del-meetup-3-en-buenos-aires/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>

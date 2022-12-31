@@ -54,5 +54,37 @@ Finalmente, luego de tener publicados Mugar_ArgentinaRegions y el meta-paquete M
 Se repasó la discusión sobre por qué es necesario un tipo y número de documento tanto para el Billing como para el Shipping.</description>
     </item>
     
+    <item>
+      <title>Backlog 2019.06</title>
+      <link>/posts/backlog-2019-06/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-06/</guid>
+      <description>Posiblemente llamar backlog a este tipo de publicaciones no sea la mejor etiqueta. Esto es más bien una especie de status report, con un compendio de lo que hemos hecho en el último tiempo, lo que estamos haciendo hoy y lo que tenemos planeado en el corto y mediano plazo.
+Desde el último reporte/backlog, hemos hecho lo siguiente:
+Publicamos la versión 1.2.2 de Mugar_ArgentinaRegions. Verificamos la organización en Github.com. Arreglamos todos los repositorios para que sigan las definiciones que planteamos.</description>
+    </item>
+    
+    <item>
+      <title>¡Gracias ExtDN!</title>
+      <link>/posts/gracias-extdn/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gracias-extdn/</guid>
+      <description>Para quienes aún no conozcan qué es ExtDN (Magento Extension Developers Network), se trata de un grupo de proveedores de extensiones gratuitas y pagas (sobre todo, lo úlitmo).
+La idea detrás de este grupo, más allá de continuar cada uno con sus respectivos módulos y sus respectivos negocios; es trabajar, de forma abierta, en la promoción de estándares de calidad, tanto para sus módulos como para la interacción con el core de Magento.</description>
+    </item>
+    
+    <item>
+      <title>Mugar Argentina Setup</title>
+      <link>/posts/mugar-argentina-setup/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar-argentina-setup/</guid>
+      <description>Siguiendo con la idea de armar un paquete de módulos que sirvan para configurar y adaptar la tienda a las necesidades y usos de Argentina, hemos creado la primera versión del metapaquete Mugar Argentina Setup.
+A diferencia de los módulos, los metapaquetes se utilizan para poder instalar múltiples extensiones. Además, no son un módulo ni contienen código por si mismos.
+Por el momento, el metapaquete contiene únicamente el módulo Mugar_ArgentinaRegions La idea es ir agregando los otros módulos definidos en el roadmap, a medida que vayan alcanzando estabilidad.</description>
+    </item>
+    
   </channel>
 </rss>

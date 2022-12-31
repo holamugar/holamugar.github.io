@@ -42,5 +42,16 @@ Finalmente, luego de tener publicados Mugar_ArgentinaRegions y el meta-paquete M
 Se repasó la discusión sobre por qué es necesario un tipo y número de documento tanto para el Billing como para el Shipping.</description>
     </item>
     
+    <item>
+      <title>Backlog 2019.06</title>
+      <link>/posts/backlog-2019-06/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-06/</guid>
+      <description>Posiblemente llamar backlog a este tipo de publicaciones no sea la mejor etiqueta. Esto es más bien una especie de status report, con un compendio de lo que hemos hecho en el último tiempo, lo que estamos haciendo hoy y lo que tenemos planeado en el corto y mediano plazo.
+Desde el último reporte/backlog, hemos hecho lo siguiente:
+Publicamos la versión 1.2.2 de Mugar_ArgentinaRegions. Verificamos la organización en Github.com. Arreglamos todos los repositorios para que sigan las definiciones que planteamos.</description>
+    </item>
+    
   </channel>
 </rss>

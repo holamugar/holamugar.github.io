@@ -19,5 +19,16 @@ La lista total de cambios sería:
 Se arregló y creó el paquete Mugar_Language-es_AR 1.0.0. Se normalizó estructura de Mugar_Language-es_AR y se llegó a versión 2.0.1. Se dio compatibilidad con PHP 7.</description>
     </item>
     
+    <item>
+      <title>Mugar Argentina Setup</title>
+      <link>/posts/mugar-argentina-setup/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar-argentina-setup/</guid>
+      <description>Siguiendo con la idea de armar un paquete de módulos que sirvan para configurar y adaptar la tienda a las necesidades y usos de Argentina, hemos creado la primera versión del metapaquete Mugar Argentina Setup.
+A diferencia de los módulos, los metapaquetes se utilizan para poder instalar múltiples extensiones. Además, no son un módulo ni contienen código por si mismos.
+Por el momento, el metapaquete contiene únicamente el módulo Mugar_ArgentinaRegions La idea es ir agregando los otros módulos definidos en el roadmap, a medida que vayan alcanzando estabilidad.</description>
+    </item>
+    
   </channel>
 </rss>

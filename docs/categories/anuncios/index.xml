@@ -87,6 +87,30 @@ La idea detrás de este grupo, más allá de continuar cada uno con sus respecti
     </item>
     
     <item>
+      <title>¡Chau 2018!</title>
+      <link>/posts/chau-2018/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/chau-2018/</guid>
+      <description>En unas horas nada más estará terminando también nuestro primer año.
+Lo que comenzó como un espacio para corregir módulos de uso común, terminó siendo un grupo que todos los meses se junta, de una u otra forma (y en alguna u otra ciudad) para compartir experiencias.
+A lo largo del año, esto fue lo que hicimos.
+El 24 de marzo participamos del Distributed Magento Contribution Day.
+El 5 de mayo, nuestra meetup #2, en Mar del Plata.</description>
+    </item>
+    
+    <item>
+      <title>Ahora tenemos newsletter</title>
+      <link>/posts/ahora-tenemos-newsletter/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ahora-tenemos-newsletter/</guid>
+      <description>Desde hoy, en la barra lateral en donde tenemos todos los links (y logos) a nuestros otros canales, vas a encontrar un sobre (no, no tenés que poner nada) que te lleva directo al formulario de registro para nuestro newsletter.
+Dado que tampoco nos gusta el spam, hemos optado por Mailchimp como servicio, el cual es conocido por ser muy quisquilloso con estas cuestiones.
+Por esto, nadie será suscripto de forma manual.</description>
+    </item>
+    
+    <item>
       <title>¡Hola mundo!</title>
       <link>/posts/hola-mundo/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>

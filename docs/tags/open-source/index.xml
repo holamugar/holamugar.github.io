@@ -41,5 +41,41 @@ A diferencia de los módulos, los metapaquetes se utilizan para poder instalar m
 Por el momento, el metapaquete contiene únicamente el módulo Mugar_ArgentinaRegions La idea es ir agregando los otros módulos definidos en el roadmap, a medida que vayan alcanzando estabilidad.</description>
     </item>
     
+    <item>
+      <title>Backlog 2019.02</title>
+      <link>/posts/backlog-2019-02/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-02/</guid>
+      <description>El viernes 1 de febrero (hace una semana) hicimos nuestro primer hangout abierto para conversar sobre varios temas que estaban a mitad de camino, algunos otros que estaban sin avance y alguna cosa que habíamos hecho no de la mejor manera.
+Desde la meetup de diciembre se viene trabajando en ordenar y facilitar todo lo que sea necesario para que podamos colaborar online.
+Se comenzó con una lista de temas que se venían conversando en Slack desde hacía varios días.</description>
+    </item>
+    
+    <item>
+      <title>Mugar_ArgentinaRegions 1.2.0</title>
+      <link>/posts/mugar_argentinaregions-1-2-0/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar_argentinaregions-1-2-0/</guid>
+      <description>Durante el mes de enero se estuvo trabajando en algunos de los tickets que teníamos creados para el módulo, y el viernes, luego de nuestra primera grooming (de la cual tendremos post resúmen), se decidió hacer algunos ajustes para respetar cuestiones de forma.
+Los cambios hechos en el módulo fueron:
+Se asignó el código ISO 3166-2 a cada provincia. (Ver en GitHub) Se creó un readme.md base para usar como modelo en los otros módulos.</description>
+    </item>
+    
+    <item>
+      <title>Mugar_ArgentinaRegions</title>
+      <link>/posts/mugar_argentinaregions/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar_argentinaregions/</guid>
+      <description>Tal como definiéramos en el hackatón de junio, y a pesar de haber ido más lento de lo deseado, podemos decir que tenemos un primer módulo oficial.
+El módulo se forkeó de Barbanet_ArgentinaRegions 1.0.0, el cual será deprecado.
+El código está disponible en Github y se puede instalar por Composer desde Packagist.
+Para instalarlo, usaremos composer:
+composer require mugar/module-argentina-regions Una vez que se haya instalado, deberemos activarlo.
+bin/magento module:enable Mugar_ArgentinaRegions Y ahora si, actualizar.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pwa on Mugar</title>
+    <link>/tags/pwa/</link>
+    <description>Recent content in pwa on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Wed, 04 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/pwa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meetup #4: PWA Studio 101</title>
+      <link>/posts/meetup-4-pwa-studio-101/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-4-pwa-studio-101/</guid>
+      <description>El viernes 27 de julio nos juntamos para dar los primeros pasos con PWA y Magento 2.3.
+Para participar, es necesario anotarse en este link: https://www.meetup.com/Magento-Meetup-Buenos-Aires/events/252217172/
+Martin Hansen nos mostrará el paso a paso para configurar tu entorno para poder instalar y comenzar a jugar con PWA Studio.
+Una vez instalado, dejaremos la agenda abierta para conversar sobre las nuevas posibilidades que ofrecen la evolución del frontend a través del PWA.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Mugar_ArgentinaRegions - Mugar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/mugar_argentinaregions/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a098a9e958ab9c79270ab5503d20d4f4ed33fa3ffcc4115942e389f55df049a6.css">
+  
+  
+  <link rel="stylesheet" href="/css/override.min.854c885b0e155a66b102685c4531f8e24bd68d533487eceea0699ff7601dbc94.css">
+
+  
+    <meta name="description" content="Tal como definiéramos en el hackatón de junio, y a pesar de haber ido más lento de lo deseado, podemos decir que tenemos un primer módulo oficial."/>
+    <meta property="og:title" content="Mugar_ArgentinaRegions"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/mugar_argentinaregions/"/>
+    <meta property="og:image" content="/images/posts/2018/12/2018-12-27-01.png"/>
+    <meta property="og:description" content="Tal como definiéramos en el hackatón de junio, y a pesar de haber ido más lento de lo deseado, podemos decir que tenemos un primer módulo oficial."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@holamugar"/>
+    <meta name="twitter:creator" content="@holamugar"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-código de conducta">
+                    <a href="/codigo-de-conducta/">Código de Conducta</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Mugar</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-código de conducta ">
+        <a href="/codigo-de-conducta/">
+          
+          <span>Código de Conducta</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+      <div class="author">
+  <img width="30" class="author-image" src="/images/mugar-logo.png" />
+  <span>
+    
+      <span class="author-name">Mugar</span>
+    
+  </span>
+  <span class="author-divider"></span>
+  <span class="author-date">December 27, 2018</span>
+</div>
+    
+    <div class="intro">
+      <h1>Mugar_ArgentinaRegions<span class="dot">.</span></h1>
+      
+      <img src="/images/posts/2018/12/2018-12-27-01.png" />
+      
+    </div>
+    <div class="content">
+      <p>Tal como definiéramos en el <a href="/posts/recap-del-meetup-3-en-buenos-aires/">hackatón de junio</a>, y a pesar de haber ido más lento de lo deseado, podemos decir que tenemos un primer módulo oficial.</p>
+<p>El módulo se forkeó de <a href="https://www.damianculotta.com.ar/magento/barbanet_argentinaregions-1-0-0/">Barbanet_ArgentinaRegions 1.0.0</a>, el cual será deprecado.</p>
+<p>El código está <a href="https://github.com/holamugar/module-argentinaregions">disponible en Github</a> y se puede <a href="https://packagist.org/packages/mugar/module-argentinaregions">instalar por Composer desde Packagist</a>.</p>
+<p>Para instalarlo, usaremos composer:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">composer require mugar/module-argentina-regions
+</span></span></code></pre></div><p>Una vez que se haya instalado, deberemos activarlo.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento module:enable Mugar_ArgentinaRegions
+</span></span></code></pre></div><p>Y ahora si, actualizar.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento setup:upgrade
+</span></span></code></pre></div><p>No olvidarse de limpiar cache ya que estos datos se cachean siempre.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento cache:clean
+</span></span></code></pre></div><p>Ahora si, al intentar, por ejemplo, cotizar un envío, tendríamos que tener las provincias cargadas.</p>
+<p><img src="/images/posts/2018/12/2018-12-27-02.png#center" alt="Módulo"></p>
+<p>Además de proveer de la lista de provincias argentinas para Magento 2, con este módulo estamos buscando comenzar a contribuir más allá de los encuentros mensuales.</p>
+<p>Es por eso que si miran en <a href="https://github.com/holamugar/module-argentinaregions/issues">https://github.com/holamugar/module-argentinaregions/issues</a> van a ver que hay dos issues creados. Intentaremos marcar aquellos issues que consideremos pueden ayudar a quien se está iniciando o duda en cómo colaborar, pueda hacerlo.</p>
+<p>Actualmente, para este módulo, tenemos dos issues que se pueden revisar:</p>
+<ul>
+<li><a href="https://github.com/holamugar/module-argentinaregions/issues/1">Definir el código a usar para cada Provincia</a></li>
+<li><a href="https://github.com/holamugar/module-argentinaregions/issues/2">reparar readme.md y dejarlo como modelo para otros módulos MugAr</a></li>
+</ul>
+<p>Si hubieran dudas, siempre podemos llevar la discusión en los issues específicos o en <a href="https://mugar.slack.com/">Slack</a>.</p>
+
+    </div>
+  </div>
+  <div class="category">
+     
+<ul>
+     <li>
+        <a href="/categories/extensiones/">extensiones</a>
+    </li></ul>
+
+  </div>
+  <div class="tags">
+     
+<ul>
+     <li>
+        <a href="/tags/extensiones/">extensiones</a>
+    </li> <li>
+        <a href="/tags/mugar-argentina-regions/">mugar-argentina-regions</a>
+    </li> </ul>
+
+  </div>
+
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-facebook">
+        <a href="https://www.facebook.com/holamugar" title="Facebook" target="_blank" rel="noopener">
+          <img src="/images/social/facebook.png" width="24" height="24" alt="Facebook"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/holamugar" title="Github" target="_blank" rel="noopener">
+          <img src="/images/social/github.png" width="24" height="24" alt="Github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-instagram">
+        <a href="https://instagram.com/holamugar" title="Instagram" target="_blank" rel="noopener">
+          <img src="/images/social/instagram.png" width="24" height="24" alt="Instagram"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/company/mugar" title="Linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.png" width="24" height="24" alt="Linkedin"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-slack">
+        <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg" title="Slack" target="_blank" rel="noopener">
+          <img src="/images/social/slack.png" width="24" height="24" alt="Slack"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/holamugar" title="Twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.png" width="24" height="24" alt="Twitter"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

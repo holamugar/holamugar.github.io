@@ -29,5 +29,30 @@ En estos años hemos estado organizando meetups en 5 ciudades. Para cada meetup 
 El pequeño ajuste cualitativo que hemos hecho ahora fue el de agregar el link a nuestro menú (aquí a la izquierda) para listar cada una de las meetups, con los links de cada una, para que puedan anotarse y sea más fácil localizarlas.</description>
     </item>
     
+    <item>
+      <title>Recap del Meetup #5 en Tandil</title>
+      <link>/posts/recap-del-meetup-5-en-tandil/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-5-en-tandil/</guid>
+      <description>Hace una semana (sábado 11 de agosto) hicimos el primer meetup en Tandil.
+Si bien habíamos propuesto una agenda flexible y sobre el final se decidieron algunos temas, el encuentro sucedió de forma totalmente orgánica.
+Luego de unos mates y medialunas (muuuchas medialunas), comenzamos con una breve introducción sobre qué es (y qué no) MugAr.
+Acto seguido, la charla comenzó a moverse girar en torno a PWA y entornos.
+Comenzamos hablando de PWA y la comparación entre opciones disponibles (también se hizo un breve repaso de la Meetup #4), y en algún momento se mencionó Docker, y eso nos llevo a conectar el proyector.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #5 en Tandil</title>
+      <link>/posts/meetup-5-en-tandil/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-5-en-tandil/</guid>
+      <description>Quinto meetup de MugAr, primera vez en Tandil.
+El sábado 11 de Agosto nos volveremos a ver las caras.
+Para esta oportunidad tenemos una nueva propuesta, armar algo interesante para diferentes tipos de público:
+Gente que no conozca, o no haya trabajado con Magento y quiera tener un acercamiento. Gente que tenga experiencia trabajando con Magento, pero no conozca a MugAr. Los integrantes de MugAr que ya participaron en eventos anteriores.</description>
+    </item>
+    
   </channel>
 </rss>

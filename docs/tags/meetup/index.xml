@@ -163,6 +163,139 @@ Si no tenés idea por dónde están, este es el link al mapa.</description>
     </item>
     
     <item>
+      <title>Recap del MetaMeetup #8 en Buenos Aires</title>
+      <link>/posts/recap-del-metameetup-8-en-buenos-aires/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-metameetup-8-en-buenos-aires/</guid>
+      <description>Pasó el último meetup del año. El cual fue definido como una MetaMeetup gracias al clima que poco nos ayudó.
+El encuentro del viernes nos sirvió para repasar un poco lo que habíamos hecho, los que nos había faltado y cuáles podrían ser los próximos pasos.
+Volvimos a hacer un experimento con el streaming y fue bastante usable (quizás el año próximo podamos comenzar a implementarlo como algo permanente).
+La charla comenzó en torno a cómo organizar las cosas para que sea más fácil colaborar online con los módulos que decidimos comenzar a programar allá por la meetup #3.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #8 en Buenos Aires</title>
+      <link>/posts/meetup-8-en-buenos-aires/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-8-en-buenos-aires/</guid>
+      <description>El jueves 13 de diciembre, a las 19 hs, hacemos la última meetup del año.
+Esta vez, la meetup será sin agenda. El plan apunta al networking y a conversar sobre algún que otro tema bajo el formato de mesa redonda.
+Hasta ahora el único tema sugerido ha sido el de las certificaciones, pero si tenés alguna inquietud o algún tema que podamos abordar, bienvenido sea.
+Claramente, aprovecharemos para hacer nuestro brindis de fin de año (siempre es bueno tener un motivo).</description>
+    </item>
+    
+    <item>
+      <title>Recap del Meetup #7 en Rosario</title>
+      <link>/posts/recap-del-meetup-7-en-rosario/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-7-en-rosario/</guid>
+      <description>El viernes, finalmente, inauguramos el capítulo Rosario.
+A las 5 pm ya teníamos a los primeros asistentes. Aunque eso no significo, ni de cerca, que comenzáramos a horario (obvio).
+Las charlas se dieron de forma orgánica y entre tema y tema, nos dispusimos a comenzar formalmente.
+Esto llevo a la bienvenida formal al meetup por parte de Damián y la introducción de Mugar, repasando lo ya hecho y los próximos pasos.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #7 en Rosario</title>
+      <link>/posts/meetup-7-en-rosario/</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-7-en-rosario/</guid>
+      <description>Desde septiembre venimos trabajando en organizar el primer encuentro en Rosario. Finalmente, tenemos casi todo listo (si, siempre falta algo).
+Como ya hemos contando, en cada encuentro vamos variando levemente el tipo de reunión para poder terminar de descubrir qué es lo que nos funciona mejor.
+Hasta ahora, sabemos que:
+Nos vamos a juntar el día viernes 23 de noviembre. Que nos reciben en EsquinaSF. Que vamos a hacer 3 o 4 charlas muy relajadas.</description>
+    </item>
+    
+    <item>
+      <title>Recap del Meetup #6 en Córdoba</title>
+      <link>/posts/recap-del-meetup-6-en-cordoba/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-6-en-cordoba/</guid>
+      <description>El último sábado nos reunimos en La Docta.
+Siguiendo con la idea original, estamos intentando construir y reforzar los lazos entre el ecosistema, más allá de las distancias físicas.
+En cada encuentro aprendemos un poco más sobre cómo organizarnos y qué actividades funcionan mejor. Es por eso que planteamos siempre agenda flexible para que el propio grupo que asiste la vaya moldeando de forma orgánica.
+Lo primero que debemos hacer es agradecer enormemente a Santex por abrirnos las puertas de su casa y las de The Tech Pub.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #6 en Córdoba</title>
+      <link>/posts/meetup-6-en-cordoba/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-6-en-cordoba/</guid>
+      <description>Como habíamos adelantado, el sábado 27 de octubre nos juntamos oficialmente, por primera vez, en Córdoba.
+El día se va a dividir en tres etapas.
+09:00 – Desayuno 09:45 – Introducción MugAr y presentación agenda del día. 10:00 – Mateo Navarra nos contará sobre cómo construir puentes entre los developers y el negocio, con casos prácticos. 10:25 – Federico Soich mostrará las novedades de Magento 2.3. 10:50 – Break – Networking – Votos 11:00 – Mariano Brolio explicará cómo preparar y asegurar un servidor para Magento.</description>
+    </item>
+    
+    <item>
+      <title>Recap del Meetup #5 en Tandil</title>
+      <link>/posts/recap-del-meetup-5-en-tandil/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-5-en-tandil/</guid>
+      <description>Hace una semana (sábado 11 de agosto) hicimos el primer meetup en Tandil.
+Si bien habíamos propuesto una agenda flexible y sobre el final se decidieron algunos temas, el encuentro sucedió de forma totalmente orgánica.
+Luego de unos mates y medialunas (muuuchas medialunas), comenzamos con una breve introducción sobre qué es (y qué no) MugAr.
+Acto seguido, la charla comenzó a moverse girar en torno a PWA y entornos.
+Comenzamos hablando de PWA y la comparación entre opciones disponibles (también se hizo un breve repaso de la Meetup #4), y en algún momento se mencionó Docker, y eso nos llevo a conectar el proyector.</description>
+    </item>
+    
+    <item>
+      <title>Recap del Meetup #4 en Buenos Aires</title>
+      <link>/posts/recap-del-meetup-4-en-buenos-aires/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-4-en-buenos-aires/</guid>
+      <description>El viernes 27 de julio nos juntamos con dos excusas: comenzar a entender PWA Studio y tener una charla informal con un merchant (práctica que vamos a intentar implementar como habitual) sobre qué se siente trabajar con Magento.
+Además, estuvimos haciendo algunos otros experimentos para seguir aprendiendo qué funciona mejor (y qué no) para los meetups.
+Comenzamos casi sobre la hora (el clima no colaboró).
+Una vez que Martín pudo acomodarse, dio comienzo a la charla.</description>
+    </item>
+    
+    <item>
+      <title>Magento Contribution Day MM18AR</title>
+      <link>/posts/magento-contribution-day-mm18ar/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/magento-contribution-day-mm18ar/</guid>
+      <description>El sábado 8 de septiembre haremos nuestro segundo Magento Contribution Day.
+Para participar sólo tenés que anotarte aquí. (Es necesario estar anotado para poder ordenarnos)
+¿Qué vamos a hacer? Resolver issues de Magento2 reportados en GitHub, aunque también de cualquiera de los proyectos como MSI, Bulk API, PHP 7.2 e incluso PWA.
+¿En dónde? Se llevará a cabo en las oficinas a Summa Solutions (¡gracias!).
+La dirección es Av. Córdoba 5779.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #5 en Tandil</title>
+      <link>/posts/meetup-5-en-tandil/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-5-en-tandil/</guid>
+      <description>Quinto meetup de MugAr, primera vez en Tandil.
+El sábado 11 de Agosto nos volveremos a ver las caras.
+Para esta oportunidad tenemos una nueva propuesta, armar algo interesante para diferentes tipos de público:
+Gente que no conozca, o no haya trabajado con Magento y quiera tener un acercamiento. Gente que tenga experiencia trabajando con Magento, pero no conozca a MugAr. Los integrantes de MugAr que ya participaron en eventos anteriores.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #4: PWA Studio 101</title>
+      <link>/posts/meetup-4-pwa-studio-101/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-4-pwa-studio-101/</guid>
+      <description>El viernes 27 de julio nos juntamos para dar los primeros pasos con PWA y Magento 2.3.
+Para participar, es necesario anotarse en este link: https://www.meetup.com/Magento-Meetup-Buenos-Aires/events/252217172/
+Martin Hansen nos mostrará el paso a paso para configurar tu entorno para poder instalar y comenzar a jugar con PWA Studio.
+Una vez instalado, dejaremos la agenda abierta para conversar sobre las nuevas posibilidades que ofrecen la evolución del frontend a través del PWA.</description>
+    </item>
+    
+    <item>
       <title>Recap del Meetup #3 en Buenos Aires</title>
       <link>/posts/recap-del-meetup-3-en-buenos-aires/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>

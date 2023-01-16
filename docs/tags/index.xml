@@ -160,5 +160,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>newsletter</title>
+      <link>/tags/newsletter/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/newsletter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mm18ar</title>
+      <link>/tags/mm18ar/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mm18ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pwa</title>
+      <link>/tags/pwa/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pwa/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

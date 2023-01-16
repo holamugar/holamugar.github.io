@@ -29,5 +29,28 @@ En estos años hemos estado organizando meetups en 5 ciudades. Para cada meetup 
 El pequeño ajuste cualitativo que hemos hecho ahora fue el de agregar el link a nuestro menú (aquí a la izquierda) para listar cada una de las meetups, con los links de cada una, para que puedan anotarse y sea más fácil localizarlas.</description>
     </item>
     
+    <item>
+      <title>Recap del Meetup #6 en Córdoba</title>
+      <link>/posts/recap-del-meetup-6-en-cordoba/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-6-en-cordoba/</guid>
+      <description>El último sábado nos reunimos en La Docta.
+Siguiendo con la idea original, estamos intentando construir y reforzar los lazos entre el ecosistema, más allá de las distancias físicas.
+En cada encuentro aprendemos un poco más sobre cómo organizarnos y qué actividades funcionan mejor. Es por eso que planteamos siempre agenda flexible para que el propio grupo que asiste la vaya moldeando de forma orgánica.
+Lo primero que debemos hacer es agradecer enormemente a Santex por abrirnos las puertas de su casa y las de The Tech Pub.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #6 en Córdoba</title>
+      <link>/posts/meetup-6-en-cordoba/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-6-en-cordoba/</guid>
+      <description>Como habíamos adelantado, el sábado 27 de octubre nos juntamos oficialmente, por primera vez, en Córdoba.
+El día se va a dividir en tres etapas.
+09:00 – Desayuno 09:45 – Introducción MugAr y presentación agenda del día. 10:00 – Mateo Navarra nos contará sobre cómo construir puentes entre los developers y el negocio, con casos prácticos. 10:25 – Federico Soich mostrará las novedades de Magento 2.3. 10:50 – Break – Networking – Votos 11:00 – Mariano Brolio explicará cómo preparar y asegurar un servidor para Magento.</description>
+    </item>
+    
   </channel>
 </rss>

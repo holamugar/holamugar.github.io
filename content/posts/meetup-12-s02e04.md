@@ -1,7 +1,7 @@
 ---
 title: "Meetup #12: S02E04"
 date: 2019-11-19
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","meetup","rosario"]
 description: "El viernes 29 de noviembre nos volvemos a juntar en Rosario. En esta oportunidad nos vamos a reunir en Warecloud."
 image: images/posts/2019/11/s02e04-rosario-wordpress-blank.png

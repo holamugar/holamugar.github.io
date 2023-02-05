@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #6 en Córdoba"
 date: 2018-10-29
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["cordoba","magento","meetup"]
 description: "El último sábado nos reunimos en La Docta."
 image: images/posts/2018/10/2018-10-27-01.jpg

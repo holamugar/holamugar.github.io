@@ -1,7 +1,7 @@
 ---
 title: "Backlog 2019.12"
 date: 2019-12-09
-categories: ["Backlog"]
+categorias: ["Backlog"]
 tags: ["backlog","buenos aires","extensiones","magento","meetup","rosario"]
 description: "Retomamos esto que mal llamamos Backlog (si alguien tiene una sugerencia superadora, bienvenida sea)."
 image: images/posts/2019/12/2019-12-09-01.png

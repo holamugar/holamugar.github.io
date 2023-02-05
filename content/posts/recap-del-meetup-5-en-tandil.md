@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #5 en Tandil"
 date: 2018-08-22
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","meetup","tandil"]
 description: "Hace una semana (sábado 11 de agosto) hicimos el primer meetup en Tandil."
 image: images/posts/2018/08/2018-08-21-01.jpg

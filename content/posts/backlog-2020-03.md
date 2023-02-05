@@ -1,7 +1,7 @@
 ---
 title: "Backlog 2020.03"
 date: 2020-03-08
-categories: ["Backlog"]
+categorias: ["Backlog"]
 tags: ["backlog","extensiones","magento"]
 description: "En vista de las recomendaciones del Ministerio de Salud de la Nación hemos decidido suspender todas nuestras meetups presenciales hasta nuevo aviso."
 image: images/posts/2020/03/2020-03-08-01.png

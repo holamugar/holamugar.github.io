@@ -1,7 +1,7 @@
 ---
 title: "Meetup #2 en Mar Del Plata"
 date: 2018-05-01
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","mar del plata","meetup"]
 description: "Siguiendo con el plan original, el segundo meetup de Mugar se muda a Mar del Plata."
 image: images/posts/2018/05/2018-05-01-01.jpg

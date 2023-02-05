@@ -1,7 +1,7 @@
 ---
 title: "Meetup #4: PWA Studio 101"
 date: 2018-07-04
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup","pwa"]
 description: "El viernes 27 de julio nos juntamos para dar los primeros pasos con PWA y Magento 2.3."
 image: images/posts/2018/07/2018-07-04-01.png

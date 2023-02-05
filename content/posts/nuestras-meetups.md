@@ -1,7 +1,7 @@
 ---
 title: "Nuestras meetups"
 date: 2019-12-23
-categories: ["Anuncios"]
+categorias: ["Anuncios"]
 tags: ["buenos aires","cordoba","mar del plata","meetup","rosario","tandil"]
 description: "En estos años hemos estado organizando meetups en 5 ciudades. Para cada meetup tenemos una cuenta en meetup.com, en la cual pueden ver cuándo habrá una nueva reunión y ayudarnos a confirmar asistencias."
 image: images/posts/2019/12/2019-12-23-01.png

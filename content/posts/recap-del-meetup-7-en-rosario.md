@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #7 en Rosario"
 date: 2018-11-26
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","meetup","rosario"]
 description: "El viernes, finalmente, inauguramos el capítulo Rosario."
 image: images/posts/2018/11/2018-11-23-01.jpg

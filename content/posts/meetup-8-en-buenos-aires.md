@@ -1,7 +1,7 @@
 ---
 title: "Meetup #8 en Buenos Aires"
 date: 2018-12-07
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "El jueves 13 de diciembre, a las 19 hs, hacemos la última meetup del año."
 image: images/posts/2018/12/2018-12-ba-web.png

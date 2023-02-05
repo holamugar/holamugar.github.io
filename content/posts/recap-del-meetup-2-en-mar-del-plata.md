@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #2 en Mar Del Plata"
 date: 2018-05-07
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","mar del plata","meetup"]
 description: "El sábado se llevó a cabo el segundo encuentro de Mugar, esta vez tocó en Mar del Plata, en las oficinas de Globant."
 image: images/posts/2018/05/2018-05-07-01.jpg

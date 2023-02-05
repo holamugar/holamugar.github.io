@@ -1,7 +1,7 @@
 ---
 title: "Backlog 2019.02"
 date: 2019-02-08
-categories: ["Backlog"]
+categorias: ["Backlog"]
 tags: ["backlog","extensiones","magento","open source"]
 description: "El viernes 1 de febrero (hace una semana) hicimos nuestro primer hangout abierto para conversar sobre varios temas que estaban a mitad de camino, algunos otros que estaban sin avance y alguna cosa que habíamos hecho no de la mejor manera."
 image: images/posts/2019/02/2019-02-08-01.png

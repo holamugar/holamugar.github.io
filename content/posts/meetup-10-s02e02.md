@@ -1,7 +1,7 @@
 ---
 title: "Meetup #10: S02E02"
 date: 2019-09-09
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "Ahora si lo hacemos oficial: el viernes 27 de septiembre, a las 18.30 hs, ¡segunda meetup del año!"
 image: images/posts/2019/09/s02e10-buenos-aires-wordpress.png

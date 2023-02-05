@@ -1,7 +1,7 @@
 ---
 title: "Mugar_ArgentinaRegions"
 date: 2018-12-27
-categories: ["Extensiones"]
+categorias: ["Extensiones"]
 tags: ["extensiones","mugar-argentina-regions","open source"]
 description: "Tal como definiéramos en el hackatón de junio, y a pesar de haber ido más lento de lo deseado, podemos decir que tenemos un primer módulo oficial."
 image: images/posts/2018/12/2018-12-27-01.png

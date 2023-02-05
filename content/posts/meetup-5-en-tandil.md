@@ -1,7 +1,7 @@
 ---
 title: "Meetup #5 en Tandil"
 date: 2018-07-05
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","meetup","tandil"]
 description: "Quinto meetup de MugAr, primera vez en Tandil. El sábado 11 de Agosto nos volveremos a ver las caras."
 image: images/posts/2018/07/2018-07-05-01.png

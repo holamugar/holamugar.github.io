@@ -1,7 +1,7 @@
 ---
 title: "Mugar Argentina Setup"
 date: 2019-03-25
-categories: ["Extensiones"]
+categorias: ["Extensiones"]
 tags: ["extensiones","mugar-argentina-regions","mugar-argentina-setup","open source"]
 description: "Siguiendo con la idea de armar un paquete de módulos que sirvan para configurar y adaptar la tienda a las necesidades y usos de Argentina, hemos creado la primera versión del metapaquete Mugar Argentina Setup."
 image: images/posts/2019/03/2019-03-25-01.png

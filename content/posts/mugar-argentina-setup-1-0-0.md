@@ -1,7 +1,7 @@
 ---
 title: "Mugar Argentina Setup 1.0.0"
 date: 2020-06-18
-categories: ["Extensiones"]
+categorias: ["Extensiones"]
 tags: ["extensiones","mugar-argentina-regions","mugar-argentina-setup","mugar-language-es_ar","open source"]
 description: "En la semana se estuvo trabajando en adecuar el metapaquete que intenta ser una ayuda inicial al momento de adaptar Magento a nuestro país."
 image: images/posts/2020/06/2020-06-18-01.png

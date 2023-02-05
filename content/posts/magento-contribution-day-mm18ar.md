@@ -1,7 +1,7 @@
 ---
 title: "Magento Contribution Day MM18AR"
 date: 2018-08-01
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","hackaton","magento","meetup","mm18ar"]
 description: "El sábado 8 de septiembre haremos nuestro segundo Magento Contribution Day."
 image: images/posts/2018/08/2018-08-01-01.png

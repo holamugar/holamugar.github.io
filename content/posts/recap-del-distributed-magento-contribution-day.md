@@ -1,7 +1,7 @@
 ---
 title: "Recap del Distributed Magento Contribution Day"
 date: 2018-03-31
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","hackaton","magento","meetup"]
 description: "Hace una semana nada más nos juntamos por primera vez para participar del Distributed Magento Contribution Day."
 image: images/posts/2018/03/2018-03-31-01.jpg

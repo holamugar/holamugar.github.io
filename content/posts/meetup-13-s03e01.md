@@ -1,7 +1,7 @@
 ---
 title: "Meetup #13: S03E01"
 date: 2020-03-04
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","mar del plata","meetup"]
 description: "Hace unos días terminamos de confirmar la agenda para nuestro próximo encuentro, el sábado 14 de marzo, en Mar del Plata."
 image: images/posts/2020/03/2020-03-04-01.png

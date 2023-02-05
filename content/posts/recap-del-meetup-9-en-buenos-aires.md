@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #9 en Buenos Aires"
 date: 2019-06-30
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "El viernes pasado, contra los pronósticos de lluvia, fútbol y rugby; volvimos."
 image: images/posts/2019/06/2019-06-30-01.jpg

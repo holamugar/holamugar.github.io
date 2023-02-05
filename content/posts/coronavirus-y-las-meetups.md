@@ -1,7 +1,7 @@
 ---
 title: "Coronavirus y las meetups"
 date: 2020-03-12
-categories: ["Anuncios"]
+categorias: ["Anuncios"]
 tags: ["buenos aires","cordoba","magento","mar del plata","meetup","rosario","tandil"]
 description: "En vista de las recomendaciones del Ministerio de Salud de la Nación hemos decidido suspender todas nuestras meetups presenciales hasta nuevo aviso."
 image: images/posts/2020/03/2020-03-12-01.png

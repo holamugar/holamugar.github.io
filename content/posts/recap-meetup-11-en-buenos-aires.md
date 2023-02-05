@@ -1,7 +1,7 @@
 ---
 title: "Recap Meetup #11 en Buenos Aires"
 date: 2019-11-07
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "El viernes pasado nos juntamos en la cuarta meetup del año, la número 11 desde que comenzamos."
 image: images/posts/2019/11/2019-11-07-01.jpg

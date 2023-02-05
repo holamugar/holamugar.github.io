@@ -1,7 +1,7 @@
 ---
 title: "Recap del MetaMeetup #8 en Buenos Aires"
 date: 2018-12-18
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires", "magento","meetup"]
 description: "Pasó el último meetup del año. El cual fue definido como una MetaMeetup gracias al clima que poco nos ayudó."
 image: images/posts/2018/12/2018-12-15-01.jpeg

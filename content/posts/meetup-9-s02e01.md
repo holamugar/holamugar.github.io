@@ -1,7 +1,7 @@
 ---
 title: "Meetup #9: S02E01"
 date: 2019-06-05
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "Si, el viernes 28 de junio retomamos nuestras meetups (ya hay casi calendario hasta fin de año, pero aún no digan nada, seguimos ajustando detalles y coordinando)."
 image: images/posts/2019/06/2019-06-05-01.png

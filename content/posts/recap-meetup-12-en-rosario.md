@@ -1,7 +1,7 @@
 ---
 title: "Recap Meetup #12 en Rosario"
 date: 2019-12-02
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","meetup", "rosario"]
 description: "El viernes logramos, luego de varias idas y venidas, juntarnos en Rosario. En ésta oportunidad, nos recibieron en Warecloud, y estuvimos super cómodos."
 image: images/posts/2019/12/2019-12-02-01.jpg

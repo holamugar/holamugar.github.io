@@ -1,7 +1,7 @@
 ---
 title: "Backlog 2019.06"
 date: 2019-06-10
-categories: ["Backlog"]
+categorias: ["Backlog"]
 tags: ["backlog","buenos aires","extensiones","magento","meetup","open source"]
 description: "Posiblemente llamar backlog a este tipo de publicaciones no sea la mejor etiqueta. Esto es más bien una especie de status report."
 image: images/posts/2019/06/2019-06-10-01.png

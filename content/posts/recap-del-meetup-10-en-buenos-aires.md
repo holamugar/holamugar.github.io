@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #10 en Buenos Aires"
 date: 2019-09-30
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "Siguiendo con la tradición, nos toca hacer el recap de lo sucedido el viernes pasado."
 image: images/posts/2019/09/2019-09-30-00.jpg

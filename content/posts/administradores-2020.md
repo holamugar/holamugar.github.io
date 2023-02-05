@@ -1,7 +1,7 @@
 ---
 title: "Administradores 2020"
 date: 2019-12-20
-categories: ["Anuncios"]
+categorias: ["Anuncios"]
 tags: ["administradores"]
 description: "En las meetups de este año hemos estado conversando, entre otros tantos temas, sobre cuestiones organizativas de Mugar."
 image: images/posts/2019/12/2019-12-19-01.png

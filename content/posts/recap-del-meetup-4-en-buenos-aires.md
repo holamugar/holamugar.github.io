@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #4 en Buenos Aires"
 date: 2018-08-05
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "El viernes 27 de julio nos juntamos con dos excusas: comenzar a entender PWA Studio y tener una charla informal con un merchant."
 image: images/posts/2018/08/2018-08-05-01.jpg

@@ -1,7 +1,7 @@
 ---
 title: "Recap del Meetup #3 en Buenos Aires"
 date: 2018-06-10
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","mar del plata","meetup"]
 description: "El sábado pasado nos juntamos otra vez, ésta vez en Buenos Aires, en las oficinas de SemExpert."
 image: images/posts/2018/06/2018-06-09-11.jpg

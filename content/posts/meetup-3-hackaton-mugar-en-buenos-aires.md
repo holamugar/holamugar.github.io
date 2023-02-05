@@ -1,7 +1,7 @@
 ---
 title: "Meetup #3: hackaton MugAr en Buenos Aires"
 date: 2018-05-16
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","buenos aires","hackaton", "meetup"]
 description: "Primer hackatón MugAr. Tercer meetup."
 image: images/posts/2018/05/2018-05-16-01.jpg

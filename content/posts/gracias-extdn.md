@@ -1,7 +1,7 @@
 ---
 title: "¡Gracias ExtDN!"
 date: 2019-06-07
-categories: ["Anuncios"]
+categorias: ["Anuncios"]
 tags: ["extensiones","hackaton"]
 description: "Para quienes aún no conozcan qué es ExtDN, se trata de un grupo de proveedores de extensiones gratuitas y pagas (sobre todo, lo úlitmo)."
 image: images/posts/2019/06/2019-06-07.png

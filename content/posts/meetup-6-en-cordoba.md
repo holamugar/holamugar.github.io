@@ -1,7 +1,7 @@
 ---
 title: "Meetup #6 en Córdoba"
 date: 2018-09-14
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["cordoba","magento","meetup"]
 description: "Como habíamos adelantado, el sábado 27 de octubre nos juntamos oficialmente, por primera vez, en Córdoba."
 image: images/posts/2018/07/2018-07-14-01.png

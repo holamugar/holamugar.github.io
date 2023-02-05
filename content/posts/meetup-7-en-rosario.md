@@ -1,7 +1,7 @@
 ---
 title: "Meetup #7 en Rosario"
 date: 2018-11-06
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["magento","meetup","rosario"]
 description: "Desde septiembre venimos trabajando en organizar el primer encuentro en Rosario. Finalmente, tenemos casi todo listo (si, siempre falta algo)."
 image: images/posts/2018/11/2018-11-07-01.png

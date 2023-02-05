@@ -1,7 +1,7 @@
 ---
 title: "Backlog 2020.01"
 date: 2020-01-06
-categories: ["Backlog"]
+categorias: ["Backlog"]
 tags: ["backlog","extensiones","magento"]
 description: "Uno de los temas que se conversaron en la última grooming tiene que ver con armar un plan sobre lo que decimos que queremos hacer."
 image: images/posts/2020/01/2020-01-06-01.png

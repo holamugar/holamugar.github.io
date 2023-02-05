@@ -1,7 +1,7 @@
 ---
 title: "Distributed Magento Contribution Day el 24 de marzo"
 date: 2018-03-15
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","hackaton","magento","meetup"]
 description: "Primera reunión oficial de MugAr."
 image: images/posts/2018/03/2018-03-15-01.png

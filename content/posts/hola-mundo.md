@@ -1,7 +1,7 @@
 ---
 title: "¡Hola mundo!"
 date: 2018-03-01
-categories: ["Anuncios"]
+categorias: ["Anuncios"]
 tags: []
 description: "Mugar es un grupo de usuarios, desarrolladores, diseñadores, sysadmins y/o vendedores que usan o trabajan con la plataforma Magento."
 image: 

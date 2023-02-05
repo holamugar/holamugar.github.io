@@ -1,7 +1,7 @@
 ---
 title: "Meetup #11: S02E03"
 date: 2019-10-23
-categories: ["Meetups"]
+categorias: ["Meetups"]
 tags: ["buenos aires","magento","meetup"]
 description: "El viernes 1 de noviembre, a las 19.00 hs, vamos con la tercera meetup de este 2019."
 image: images/posts/2019/10/2019-10-23-01.png

@@ -1,7 +1,7 @@
 ---
 title: "Mugar_ArgentinaRegions 1.2.0"
 date: 2019-02-04
-categories: ["Extensiones"]
+categorias: ["Extensiones"]
 tags: ["extensiones","mugar-argentina-regions","open source"]
 description: "Durante el mes de enero se estuvo trabajando en algunos de los tickets que teníamos creados para el módulo, y el viernes, luego de nuestra primera grooming (de la cual tendremos post resúmen), se decidió hacer algunos ajustes para respetar cuestiones de forma."
 image: images/posts/2019/02/2019-02-04-01.png

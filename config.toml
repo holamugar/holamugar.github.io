@@ -38,8 +38,9 @@ enableRobotsTXT = true
       xhtml = false
 
 [taxonomies]
+  author = "autores"
   tag = "tags"
-  category = "categories"
+  category = "categorias"
 
 [menu]
   [[menu.main]]
@@ -47,3 +48,8 @@ enableRobotsTXT = true
     name = 'Home'
     url = '/'
     weight = 1
+  [[menu.main]]
+    identifier = 'authors'
+    name = 'Autores'
+    url = '/autores/'
+    weight = 5

@@ -6,7 +6,19 @@
     <description>Recent content in backlog on Mugar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/backlog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/backlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backlog 2023 Q1</title>
+      <link>/posts/backlog-2023-q1/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2023-q1/</guid>
+      <description>Lentamente vamos haciendo algunas de las cosas que se conversaron en la última meetup, la número 14, en Buenos Aires.
+El mes pasado migramos el sitio de Wordpress a Hugo, y el repositorio con todo el contenido es público: https://github.com/holamugar/holamugar.github.io.
+Esto nos permitió eliminar la necesidad de mantener el sitio web (seguridad) y al traer el sitio a Github Pages, dejamos de abonar hosting mensual.
+También nos permite avanzar en un viejo proyecto.</description>
+    </item>
+    
     <item>
       <title>Backlog 2020.03</title>
       <link>/posts/backlog-2020-03/</link>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autores on Mugar</title>
+    <link>/autores/</link>
+    <description>Recent content in Autores on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/autores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Damian Culotta</title>
+      <link>/autores/damian-culotta/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/autores/damian-culotta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

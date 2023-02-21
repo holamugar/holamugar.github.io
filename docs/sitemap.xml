@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/autores/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/backlog/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categorias/backlog/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/backlog-2023-q1/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categorias/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/autores/damian-culotta/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
     <lastmod>2022-12-17T00:00:00+00:00</lastmod>
@@ -11,16 +32,13 @@
     <loc>/posts/chau-2020/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/anuncios/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
+    <loc>/categorias/anuncios/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/extensiones/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/extensiones/</loc>
+    <loc>/categorias/extensiones/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/mugar-argentina-setup-1-0-0/</loc>
@@ -36,9 +54,6 @@
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/open-source/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/buenos-aires/</loc>
@@ -65,19 +80,13 @@
     <loc>/tags/tandil/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/backlog/</loc>
-    <lastmod>2020-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/backlog/</loc>
-    <lastmod>2020-03-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/backlog-2020-03/</loc>
     <lastmod>2020-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/meetup-13-s03e01/</loc>
     <lastmod>2020-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/meetups/</loc>
+    <loc>/categorias/meetups/</loc>
     <lastmod>2020-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/roadmap/</loc>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetups on Mugar</title>
-    <link>/categories/meetups/</link>
+    <link>/categorias/meetups/</link>
     <description>Recent content in Meetups on Mugar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 04 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/meetups/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categorias/meetups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meetup #13: S03E01</title>
       <link>/posts/meetup-13-s03e01/</link>

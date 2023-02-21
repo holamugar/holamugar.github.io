@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Mugar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>backlog</title>
+      <link>/tags/backlog/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/backlog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>extensiones</title>
       <link>/tags/extensiones/</link>
@@ -112,15 +121,6 @@
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/tandil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>backlog</title>
-      <link>/tags/backlog/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/backlog/</guid>
       <description></description>
     </item>
     

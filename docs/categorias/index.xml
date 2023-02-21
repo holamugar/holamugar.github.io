@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categorias on Mugar</title>
+    <link>/categorias/</link>
+    <description>Recent content in Categorias on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categorias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backlog</title>
+      <link>/categorias/backlog/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/backlog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anuncios</title>
+      <link>/categorias/anuncios/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/anuncios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extensiones</title>
+      <link>/categorias/extensiones/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/extensiones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meetups</title>
+      <link>/categorias/meetups/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/meetups/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 ---
 title: "Backlog 2023 Q1"
-date: 2023-02-04
+date: 2023-02-21
 categorias: ["Backlog"]
 tags: ["backlog"]
 autores: ["Damian Culotta"]
@@ -18,4 +18,4 @@ También nos permite avanzar en un viejo proyecto. Desde ahora, si alguien quisi
 
 Por este motivo en particular hoy vamos a usar este post como ejemplo de una customización que estamos aplicando en el theme, y que tiene que ver con la atribución de quien escriba.
 
-Y hacia adelante, vale la pena resaltar que en charlas privadas, de forma cada vez más frecuente, ha estado sonando la idea de hacer una nueva meetup, similar al último encuentro. Ahora queda ver si somos capaces de coordinar.
+Con respecto a las meetups, vale la pena resaltar que en charlas privadas, de forma cada vez más frecuente, ha estado sonando la idea de hacer un nuevo encuentro (similar al último). Ahora queda ver si somos capaces de coordinar.

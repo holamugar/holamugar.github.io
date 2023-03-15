@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plataformas on Mugar</title>
+    <link>/tags/plataformas/</link>
+    <description>Recent content in plataformas on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Wed, 15 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/plataformas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Se pueden comparar dos plataformas de ecommerce?</title>
+      <link>/posts/se-pueden-comparar-dos-plataformas-de-ecommerce/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/se-pueden-comparar-dos-plataformas-de-ecommerce/</guid>
+      <description>Inmediatamente que se empieza a hablar de una solución de ecommerce empiezan a surgir comparaciones, incluso debates sobre cuál es mejor o peor. Generalmente, este ida y vuelta siempre se hace desde una posición técnica o propia del implementador, dejando muchas veces afuera dos aspectos cruciales: la visión estratégica del responsable del proyecto y la propuesta comercial del negocio del cliente.
+Si bien existen muchas formas de clasificar un software, me voy a centrar dos puntos básicos e intentar vincularlos con lo planteado anteriormente.</description>
+    </item>
+    
+  </channel>
+</rss>

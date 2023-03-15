@@ -5,7 +5,7 @@ categorias: ["Plataformas"]
 autores: ["Martin Gelpi"]
 tags: ["plataformas"]
 description: "Inmediatamente que se empieza a hablar de una solución de ecommerce empiezan a surgir comparaciones, incluso debates sobre cuál es mejor o peor."
-image: images/posts/2023/03/2023-03-15-01.png
+image: images/posts/2023/03/2023-03-15-01.jpg
 ---
 
 Inmediatamente que se empieza a hablar de una solución de ecommerce empiezan a surgir comparaciones, incluso debates sobre cuál es mejor o peor. Generalmente, este ida y vuelta siempre se hace desde una posición técnica o propia del implementador, dejando muchas veces afuera dos aspectos cruciales: la visión estratégica del responsable del proyecto y la propuesta comercial del negocio del cliente.

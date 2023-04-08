@@ -8,5 +8,5 @@
     {{ end }}
   </span>
   <span class="author-divider"></span>
-  <span class="author-date">{{ dateFormat "January 2, 2006" .Date }}</span>
+  <span class="author-date">{{ partial "date.html" . }}</span>
 </div>

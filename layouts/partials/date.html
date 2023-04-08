@@ -1,0 +1,7 @@
+{{ $formattedDate := dateFormat "Friday, March 3, 2006" .Date }}
+{{ $monthNumber := .Date.Month }}
+{{ $dayNumber := .Date.Weekday }}
+{{ $monthNumber = index site.Data.months (printf "%d" .Date.Month) }}
+{{ $dayNumber = index site.Data.days (printf "%d" .Date.Weekday) }}
+{{ $formattedDate = delimit (slice $dayNumber (printf "%d" .Date.Day) "de" $monthNumber "de" (printf "%d" .Date.Year)) " "}}
+{{ return $formattedDate }}

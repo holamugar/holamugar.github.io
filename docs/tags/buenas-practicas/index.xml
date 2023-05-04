@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Facundo Capua on Mugar</title>
-    <link>/autores/facundo-capua/</link>
-    <description>Recent content in Facundo Capua on Mugar</description>
+    <title>buenas practicas on Mugar</title>
+    <link>/tags/buenas-practicas/</link>
+    <description>Recent content in buenas practicas on Mugar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/autores/facundo-capua/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/buenas-practicas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Buenas prácitas - Branching Model</title>
       <link>/posts/buenas-practicas-branching/</link>

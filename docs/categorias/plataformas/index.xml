@@ -8,13 +8,13 @@
     <language>es-ar</language>
     <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categorias/plataformas/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Buenas prácitas - Branching</title>
+      <title>Buenas prácitas - Branching Model</title>
       <link>/posts/buenas-practicas-branching/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/posts/buenas-practicas-branching/</guid>
-      <description>Inmediatamente que se empieza a hablar de una solución de ecommerce empiezan a surgir comparaciones, incluso debates sobre cuál es mejor o peor. Generalmente, este ida y vuelta siempre se hace desde una posición técnica o propia del implementador, dejando muchas veces afuera dos aspectos cruciales: la visión estratégica del responsable del proyecto y la propuesta comercial del negocio del cliente.
-Si bien existen muchas formas de clasificar un software, me voy a centrar dos puntos básicos e intentar vincularlos con lo planteado anteriormente.</description>
+      <description>Hoy en día en todos los proyectos de desarrollo de software utilizamos git como herramienta principal para el control de versiones. Además de utilizar git, precisamos de una buena estrategia para nuestras ramas (branches) de forma tal que podamos trabajar de forma ordenada y eficiente.
+La idea de este post no es explicar como funciona git ni explicar branching strategies, sino más bien dar una serie de buenas prácticas para el uso de ramas en un proyecto Magento.</description>
     </item>
     
     <item>

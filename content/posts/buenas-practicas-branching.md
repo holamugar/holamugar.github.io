@@ -38,7 +38,7 @@ El uso de tags tiene ciertos beneficios:
 - Nos permite hacer un rollback a un release anterior en caso de ser necesario (no siempre es posible ni recomendable).
 - Nos permite identificar de forma rápida los cambios que se fueron pasando a producción (para hacer troubleshooting, por ejemplo).
 
-## Respectar el flujo de trabajo
+## Respetar el flujo de trabajo
 
 Uno de los puntos más importantes es respetar el flujo de trabajo. Esto significa que una rama de feature pasa a la rama `develop`, una rama de `develop` pasa a la rama `master` y una rama de `master` pasa a producción.
 

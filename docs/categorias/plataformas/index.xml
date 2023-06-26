@@ -6,7 +6,16 @@
     <description>Recent content in Plataformas on Mugar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categorias/plataformas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categorias/plataformas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utilizando Magento como solución headless</title>
+      <link>/posts/utilizando-magento-como-solucion-headless/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/utilizando-magento-como-solucion-headless/</guid>
+      <description>En la actualidad no sólo han crecido los negocios de comercio electrónico como tal, sino que todo el ecosistema relacionado al desarrollo de ecommerce ha visto una franca expansión. Dia a dia aparecen nuevos jugadores, desde plataformas de ecommerce, herramientas de marketing, proveedores logísticos, OMS, WMS, ERP; todo el ecosistema aceleró su proceso de desarrollo. Es por eso que muchas de las preguntas que nos hacen hoy en dia, es &amp;ldquo;con cuál me caso&amp;rdquo; para que me ofrezca soluciones a las necesidades de mi negocio y me permita crecer a lo largo del tiempo.</description>
+    </item>
+    
     <item>
       <title>Buenas prácitas - Branching Model</title>
       <link>/posts/buenas-practicas-branching/</link>

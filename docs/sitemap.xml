@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/autores/</loc>
-    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categorias/</loc>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/headless/</loc>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/magento/</loc>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/autores/nicolas-de-mayo/</loc>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categorias/plataformas/</loc>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/utilizando-magento-como-solucion-headless/</loc>
+    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/buenas-practicas-branching/</loc>
     <lastmod>2023-05-04T00:00:00+00:00</lastmod>
@@ -14,16 +35,7 @@
     <loc>/tags/buenas-practicas/</loc>
     <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categorias/</loc>
-    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/autores/facundo-capua/</loc>
-    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categorias/plataformas/</loc>
-    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/se-pueden-comparar-dos-plataformas-de-ecommerce/</loc>
@@ -84,9 +96,6 @@
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/coronavirus-y-las-meetups/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/magento/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/mar-del-plata/</loc>

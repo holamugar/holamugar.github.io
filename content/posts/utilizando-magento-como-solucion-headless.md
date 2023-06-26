@@ -2,7 +2,7 @@
 title: "Utilizando Magento como solución headless"
 date: 2023-06-26
 categorias: ["Plataformas"]
-autores: ["Nicolás de Mayo"]
+autores: ["Nicolas de Mayo"]
 tags: ["headless","magento"]
 description: "Experiencias utilizando Magento (Adobe Commerce) en un modelo headless desacoplando el frotend del backend. Ventajas y desventajas."
 image: images/posts/2023/06/2023-06-26-01.jpg

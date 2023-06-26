@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Mugar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>headless</title>
+      <link>/tags/headless/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/headless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magento</title>
+      <link>/tags/magento/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/magento/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>buenas practicas</title>
       <link>/tags/buenas-practicas/</link>
@@ -94,15 +112,6 @@
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/cordoba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>magento</title>
-      <link>/tags/magento/</link>
-      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/magento/</guid>
       <description></description>
     </item>
     

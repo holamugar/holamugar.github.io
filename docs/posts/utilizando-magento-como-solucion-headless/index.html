@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Utilizando Magento como solución headless - Mugar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/utilizando-magento-como-solucion-headless/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a098a9e958ab9c79270ab5503d20d4f4ed33fa3ffcc4115942e389f55df049a6.css">
+  
+  
+  <link rel="stylesheet" href="/css/override.min.854c885b0e155a66b102685c4531f8e24bd68d533487eceea0699ff7601dbc94.css">
+
+  
+    <meta name="description" content="Experiencias utilizando Magento (Adobe Commerce) en un modelo headless desacoplando el frotend del backend. Ventajas y desventajas."/>
+    <meta property="og:title" content="Utilizando Magento como solución headless"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/utilizando-magento-como-solucion-headless/"/>
+    <meta property="og:image" content="/images/posts/2023/06/2023-06-26-01.jpg"/>
+    <meta property="og:description" content="Experiencias utilizando Magento (Adobe Commerce) en un modelo headless desacoplando el frotend del backend. Ventajas y desventajas."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@holamugar"/>
+    <meta name="twitter:creator" content="@holamugar"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-código de conducta">
+                    <a href="/codigo-de-conducta/">Código de Conducta</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-autores">
+                    <a href="/autores/">Autores</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Mugar</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-código de conducta ">
+        <a href="/codigo-de-conducta/">
+          
+          <span>Código de Conducta</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-autores ">
+        <a href="/autores/">
+          
+          <span>Autores</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+      <div class="author">
+  <img width="30" class="author-image" src="/images/mugar-logo.png" />
+  <span>
+    
+      
+        <span class="author-name">Nicolas de Mayo</span>
+      
+    
+  </span>
+  <span class="author-divider"></span>
+  <span class="author-date">Lunes 26 de Junio de 2023</span>
+</div>
+    
+    <div class="intro">
+      <h1>Utilizando Magento como solución headless<span class="dot">.</span></h1>
+      
+      <img src="/images/posts/2023/06/2023-06-26-01.jpg" />
+      
+    </div>
+    <div class="content">
+      <p>En la actualidad no sólo han crecido los negocios de comercio electrónico como tal, sino que todo el ecosistema relacionado al desarrollo de ecommerce ha visto una franca expansión. Dia a dia aparecen nuevos jugadores, desde plataformas de ecommerce, herramientas de marketing, proveedores logísticos, OMS, WMS, ERP; todo el ecosistema aceleró su proceso de desarrollo. Es por eso que muchas de las preguntas que nos hacen hoy en dia, es &ldquo;con cuál me caso&rdquo; para que me ofrezca soluciones a las necesidades de mi negocio y me permita crecer a lo largo del tiempo.</p>
+<p>¿Cuál es el stack tecnológico ideal para mi ecommerce? Lamentablemente no tengo esa respuesta (que hermosa frase), pero después de haber trabajado con tantas soluciones y distintos stacks, hoy me gustaría comentarles mi experiencia trabajando con Magento de manera Headless.</p>
+<p> </p>
+<h2 id="primero-a-qué-nos-referimos-con-stack-tecnológico-si-sos-dev-podés-avanzar-a-la-siguiente-sección">Primero, ¿a qué nos referimos con stack tecnológico? (si sos dev podés avanzar a la siguiente sección)</h2>
+<p>En el competitivo mundo del comercio electrónico, contar con un stack tecnológico sólido es fundamental para impulsar el crecimiento y el éxito de las unidades de negocio. El stack tecnológico se refiere a la combinación de tecnologías, frameworks y herramientas utilizadas en el desarrollo y funcionamiento de un ecommerce. Desempeña un papel clave en la capacidad de <strong>adaptación, escalabilidad y eficiencia</strong> de una tienda en línea. La elección de un buen stack te permitira:</p>
+<p><strong>1. Adaptación ágil a las demandas del mercado</strong></p>
+<p>El mercado del ecommerce es dinámico y está en constante evolución. Los comportamientos y preferencias de los usuarios cambian rápidamente y es crucial que un ecommerce se adapte en el menor tiempo posible. Un stack tecnológico bien diseñado y flexible te permite implementar rápidamente nuevas características, integrar herramientas de marketing y mejorar la experiencia del usuario.</p>
+<p><strong>2. Escalabilidad para un crecimiento sostenible</strong></p>
+<p>El crecimiento exitoso de un ecommerce implica aumentar el tráfico, el volumen de ventas y la base de clientes. Para lograrlo, es esencial contar con un stack tecnológico que pueda escalar de manera eficiente. Esto implica tener una infraestructura robusta y una arquitectura flexible que puedan soportar un aumento significativo en el tráfico sin sacrificar el rendimiento y la velocidad de carga.</p>
+<p><strong>3. Eficiencia operativa y reducción de costos</strong></p>
+<p>Un stack tecnológico optimizado no sólo mejora la experiencia del usuario y facilita la gestión de la tienda, sino que también puede conducir a una mayor eficiencia operativa y ahorro de costos (a quien no le gusta ahorrar costos). Al utilizar herramientas y plataformas integradas, automatizar procesos y optimizar la gestión de inventario, pedidos y pagos, podés reducir los tiempos de trabajo manual, minimizar errores y agilizar las operaciones diarias. Esto no solo mejora la productividad interna, sino que también reduce los costos operativos y permite invertir esos recursos en otras áreas clave del negocio.</p>
+<p><strong>4. Experiencia del usuario</strong></p>
+<p>La experiencia del usuario es un factor determinante en el éxito de cualquier ecommerce. Un stack tecnológico adecuado te brinda las herramientas necesarias para ofrecer una experiencia de usuario de alta calidad. Esto implica contar con un frontend atractivo y fácil de usar, una navegación intuitiva, tiempos de carga rápidos, opciones de pago seguras y una experiencia de compra fluida en todos los dispositivos.</p>
+<p> </p>
+<h2 id="utilizando-magento-adobe-commerce-como-headless-commerce">Utilizando Magento (Adobe Commerce) como headless commerce.</h2>
+<p>Antes que nada, para quienes no hayan oído de este concepto, cuando hablamos de headless, nos referimos a una arquitectura de software en la que se separa la capa de <strong>frontend</strong>, de la capa de datos, lógica de negocios y administración del sitio (<strong>backend</strong>). En el contexto de una plataforma de comercio electrónico, esto significa que la interfaz de usuario (UI) y la experiencia de usuario (UX) se separan de la lógica de la plataforma.</p>
+<p>La <strong>comunicación entre el front y el back</strong> estará a cargo de la <strong>API de Magento,</strong> y siendo más específicos, la <strong>API GraphQL</strong>. El lenguaje de consulta GraphQL se presenta como una alternativa mas flexible y eficiente a las API REST tradicionales, al permitir a los clientes solicitar y recibir solo los datos que necesitan en una sola llamada de API. En resumen, GraphQL pide solo lo que necesita, volviendo más eficaz las peticiones y respuestas (entre otras ventajas).</p>
+<p>Si bien en la última versión de Magento (2.4.6 cuando se escribió este artículo), la API GraphQL ha crecido considerablemente, tanto en cantidad de queries como también tiempos de respuesta, pueden existir algunas queries faltantes (no olvidemos que tiene un número considerable de funcionalidades, aunque terminemos utilizando solo algunas). De todas maneras, todas las necesarias para la creación de un frontend y flujo de compras regular están cubiertas y son más que suficientes.</p>
+<p>La estrategia de desacoplar el frontend del backend nos ofrece ventajas y desafíos importantes a ser tenidos en cuenta para cualquier negocio.</p>
+<h3 id="ventajas">Ventajas:</h3>
+<ol>
+<li>
+<p><strong>Flexibilidad en la experiencia de usuario</strong>: Utilizar lenguajes modernos en el front (React, Vue.js o Angular etc), permite mejorar la UI de un ecommerce, sin los desafíos que nos solemos encontrar al optimizar un frontend de Magento (aunque seas un experto frontend en algún momento odiaste Knockout JS). También modificando el stack del front los cambios se vuelven más controlados.</p>
+</li>
+<li>
+<p><strong>Mayor rendimiento</strong>: Al separar el frontend y backend, se puede optimizar el rendimiento de ambas partes de la aplicación. Podes implementar estrategias de caché y optimización en el frontend pre renderizando recursos estáticos, lo que resulta en tiempos de carga más rápidos y una experiencia de usuario mejorada. Además, al eliminar la carga del frontend del servidor de Magento, se puede mejorar la capacidad de respuesta del backend y manejar mejor el tráfico y la escalabilidad.</p>
+</li>
+<li>
+<p><strong>Facilidad de integración</strong>: Con una arquitectura headless, es más fácil integrar Magento con otros sistemas y servicios. Para quienes busquen <strong>experiencias omnicanal</strong>, pueden desarrollar aplicaciones o POS físicos digitalizados (totems utilizados en locales físicos) conectados al mismo backend.</p>
+</li>
+<li>
+<p><strong>Mayor escalabilidad</strong>: Al separar el frontend y backend, posibilidad de escalar y gestionar cada parte por separado según las necesidades. Podes escalar el frontend independientemente del backend, lo que te brinda una mayor capacidad para manejar aumentos en el tráfico y el volúmen de usuarios sin afectar el rendimiento general de la aplicación. El equipo de administración de la tienda puede trabajar sin problemas desde el backend, sin importar la concurrencia en el front, manteniendo el stack operativo en todo momento.</p>
+</li>
+<li>
+<p><strong>Universalización de tecnología:</strong> Ya no es necesario lidiar con los desafíos del frontend de Magento o salir a buscar profesionales particularmente especializados en Magento (sabemos que muchas veces escasean), lo que universaliza las oportunidades de crecimiento del equipo en tecnologías frontend en auge.</p>
+</li>
+<li>
+<p><strong>Módulos de terceros:</strong> Algunos vendors ya están comenzando a lanzar sus extensiones con compatibilidad PWA, ya sea con los servicios necesarios del módulo en GraphQL o con los archivos necesarios para implementar la funcionalidad en el frontend de PWA Studio.</p>
+</li>
+<li>
+<p><strong>Debugging:</strong> La capa GraphQL devuelve siempre la informacion que se utiliza en el storefront de la tienda, por lo tanto se vuelve una ventaja técnica a la hora de debuggear. Existen en el mercado vastas interfaces GraphQL (entre ellas el mismisimo Postman) que permiten realizar las mismas queries que realiza el front PWA identificando posibles errores de informacion o respuestas no esperadas.</p>
+</li>
+</ol>
+<h3 id="desventajas">Desventajas:</h3>
+<ol>
+<li>
+<p><strong>Funcionalidades nativas</strong>: Muchas funcionalidades nativas que naturalizamos en el frontend de Magento, deben ser desarrolladas adicionalmente en el nuevo frontend. Para dar un ejemplo, en este apartado se pueden considerar widgets y opciones de personalización de layout incluidos en Magento.</p>
+</li>
+<li>
+<p><strong>Costos de infraestructura</strong>: Si bien nos brinda mayor escalabilidad, los costos de infraestructura también aumentan dado que se incorporan nuevas instancias en el stack.</p>
+</li>
+<li>
+<p><strong>Customizaciones frontend</strong>: Todas aquellas customizaciones frontend o provenientes de alguna extensión, deben ser consideradas para homologar su desarrollo en el frontend. Esto se convierte en un esfuerzo indirecto a ser considerado.</p>
+</li>
+<li>
+<p><strong>Mayor costo y time to market</strong>: La implementación de una solución headless con Magento puede requerir más tiempo y recursos en comparación con un enfoque tradicional. El desarrollo y la integración de un frontend personalizado, así como el mantenimiento continuo de las partes frontend y backend, pueden generar costos adicionales.</p>
+</li>
+</ol>
+<p> </p>
+<p>Considerando que los costos y el time to market en el desarrollo de un nuevo frontend afectan a este modelo, se vuelve necesario considerar alternativas existentes que brinden un punto de partida aceptable para evitar partir desde cero (no reinventar la rueda):</p>
+<ul>
+<li>
+<p>PWA Studio: Esta es la solución PWA oficial de Magento, desarrollada por el equipo de Adobe. PWA Studio proporciona un conjunto de herramientas para crear web app progresivas, incluyendo un kit de desarrollo de software (SDK) y una biblioteca de componentes reutilizables. Venia es el Luma de PWA: <a href="https://venia.magento.com/">https://venia.magento.com/</a></p>
+</li>
+<li>
+<p>Vue Storefront: Esta es una PWA de código abierto que se integra con Magento 2 y otras plataformas de comercio electrónico populares, como WooCommerce y Shopify. Vue Storefront utiliza Vue.js como su marco principal y proporciona una arquitectura modular y extensible.</p>
+</li>
+<li>
+<p>ScandiPWA: Esta es una solución PWA de código abierto desarrollada por Scandiweb, una agencia de desarrollo de comercio electrónico. ScandiPWA utiliza React.js y Redux como sus principales tecnologías de frontend y proporciona una arquitectura modular y extensible.</p>
+</li>
+</ul>
+<p> </p>
+<p>En conclusión, adoptar una arquitectura headless con Magento tiene ventajas significativas en términos de flexibilidad, rendimiento, integración y escalabilidad. Sin embargo, también puede implicar una mayor complejidad de desarrollo, mayores costos y dependencia de habilidades técnicas especializadas. Es importante evaluar cuidadosamente tus necesidades comerciales y capacidades técnicas antes de tomar la decisión de utilizar Magento como solución headless.</p>
+
+    </div>
+  </div>
+  <div class="category">
+     
+<p>Categoría:
+     <a href="/categorias/plataformas/">plataformas</a>
+  </div>
+  <div class="tags">
+     
+<ul>
+     <li>
+        <a href="/tags/headless/">headless</a>
+    </li> <li>
+        <a href="/tags/magento/">magento</a>
+    </li></ul>
+
+  </div>
+
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-facebook">
+        <a href="https://www.facebook.com/holamugar" title="Facebook" target="_blank" rel="noopener">
+          <img src="/images/social/facebook.png" width="24" height="24" alt="Facebook"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/holamugar" title="Github" target="_blank" rel="noopener">
+          <img src="/images/social/github.png" width="24" height="24" alt="Github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-instagram">
+        <a href="https://instagram.com/holamugar" title="Instagram" target="_blank" rel="noopener">
+          <img src="/images/social/instagram.png" width="24" height="24" alt="Instagram"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/company/mugar" title="Linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.png" width="24" height="24" alt="Linkedin"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-slack">
+        <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg" title="Slack" target="_blank" rel="noopener">
+          <img src="/images/social/slack.png" width="24" height="24" alt="Slack"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/holamugar" title="Twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.png" width="24" height="24" alt="Twitter"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

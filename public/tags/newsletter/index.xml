@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>newsletter on Mugar</title>
+    <link>/tags/newsletter/</link>
+    <description>Recent content in newsletter on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ahora tenemos newsletter</title>
+      <link>/posts/ahora-tenemos-newsletter/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ahora-tenemos-newsletter/</guid>
+      <description>Desde hoy, en la barra lateral en donde tenemos todos los links (y logos) a nuestros otros canales, vas a encontrar un sobre (no, no tenés que poner nada) que te lleva directo al formulario de registro para nuestro newsletter.
+Dado que tampoco nos gusta el spam, hemos optado por Mailchimp como servicio, el cual es conocido por ser muy quisquilloso con estas cuestiones.
+Por esto, nadie será suscripto de forma manual.</description>
+    </item>
+    
+  </channel>
+</rss>

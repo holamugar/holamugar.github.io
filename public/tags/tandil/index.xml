@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tandil on Mugar</title>
+    <link>/tags/tandil/</link>
+    <description>Recent content in tandil on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tandil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coronavirus y las meetups</title>
+      <link>/posts/coronavirus-y-las-meetups/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/coronavirus-y-las-meetups/</guid>
+      <description>En vista de las recomendaciones del Ministerio de Salud de la Nación, para ayudar a prevenir la transmisión del coronavirus (CoVid-19) en el país, hemos decidido suspender todas nuestras meetups presenciales hasta nuevo aviso, incluída la meetup en Mar del Plata de este sábado.
+Cuando estén dadas las condiciones necesarias, retomaremos el calendario ideado a fines del año pasado.
+Les solicitamos a todos quienes participan del ecosistema que recuerden que quienes hayan viajado recientemente a Europa, Estados Unidos, Irán, Japón, China o Corea del Sur deben permanecer en su casa por 14 días, aunque no tengan síntomas.</description>
+    </item>
+    
+    <item>
+      <title>Nuestras meetups</title>
+      <link>/posts/nuestras-meetups/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/nuestras-meetups/</guid>
+      <description>Seguimos haciendo orden y trabajando para ser más prolijos.
+En estos años hemos estado organizando meetups en 5 ciudades. Para cada meetup tenemos una cuenta en meetup.com, en la cual pueden ver cuándo habrá una nueva reunión y ayudarnos a confirmar asistencias.
+El pequeño ajuste cualitativo que hemos hecho ahora fue el de agregar el link a nuestro menú (aquí a la izquierda) para listar cada una de las meetups, con los links de cada una, para que puedan anotarse y sea más fácil localizarlas.</description>
+    </item>
+    
+    <item>
+      <title>Recap del Meetup #5 en Tandil</title>
+      <link>/posts/recap-del-meetup-5-en-tandil/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/recap-del-meetup-5-en-tandil/</guid>
+      <description>Hace una semana (sábado 11 de agosto) hicimos el primer meetup en Tandil.
+Si bien habíamos propuesto una agenda flexible y sobre el final se decidieron algunos temas, el encuentro sucedió de forma totalmente orgánica.
+Luego de unos mates y medialunas (muuuchas medialunas), comenzamos con una breve introducción sobre qué es (y qué no) MugAr.
+Acto seguido, la charla comenzó a moverse girar en torno a PWA y entornos.
+Comenzamos hablando de PWA y la comparación entre opciones disponibles (también se hizo un breve repaso de la Meetup #4), y en algún momento se mencionó Docker, y eso nos llevo a conectar el proyector.</description>
+    </item>
+    
+    <item>
+      <title>Meetup #5 en Tandil</title>
+      <link>/posts/meetup-5-en-tandil/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetup-5-en-tandil/</guid>
+      <description>Quinto meetup de MugAr, primera vez en Tandil.
+El sábado 11 de Agosto nos volveremos a ver las caras.
+Para esta oportunidad tenemos una nueva propuesta, armar algo interesante para diferentes tipos de público:
+Gente que no conozca, o no haya trabajado con Magento y quiera tener un acercamiento. Gente que tenga experiencia trabajando con Magento, pero no conozca a MugAr. Los integrantes de MugAr que ya participaron en eventos anteriores.</description>
+    </item>
+    
+  </channel>
+</rss>

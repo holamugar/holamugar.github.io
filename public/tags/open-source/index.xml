@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on Mugar</title>
+    <link>/tags/open-source/</link>
+    <description>Recent content in open source on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mugar Argentina Setup 1.0.0</title>
+      <link>/posts/mugar-argentina-setup-1-0-0/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar-argentina-setup-1-0-0/</guid>
+      <description>En la semana se estuvo trabajando en adecuar el metapaquete que intenta ser una ayuda inicial al momento de adaptar Magento a nuestro país.
+A diferencia de la versión anterior, hemos añadido el módulo de traducción a español es_AR. Además, con nueva versión de Mugar_ArgentinaRegions.
+La lista total de cambios sería:
+Se arregló y creó el paquete Mugar_Language-es_AR 1.0.0. Se normalizó estructura de Mugar_Language-es_AR y se llegó a versión 2.0.1. Se dio compatibilidad con PHP 7.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2019.06</title>
+      <link>/posts/backlog-2019-06/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-06/</guid>
+      <description>Posiblemente llamar backlog a este tipo de publicaciones no sea la mejor etiqueta. Esto es más bien una especie de status report, con un compendio de lo que hemos hecho en el último tiempo, lo que estamos haciendo hoy y lo que tenemos planeado en el corto y mediano plazo.
+Desde el último reporte/backlog, hemos hecho lo siguiente:
+Publicamos la versión 1.2.2 de Mugar_ArgentinaRegions. Verificamos la organización en Github.com. Arreglamos todos los repositorios para que sigan las definiciones que planteamos.</description>
+    </item>
+    
+    <item>
+      <title>Mugar Argentina Setup</title>
+      <link>/posts/mugar-argentina-setup/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar-argentina-setup/</guid>
+      <description>Siguiendo con la idea de armar un paquete de módulos que sirvan para configurar y adaptar la tienda a las necesidades y usos de Argentina, hemos creado la primera versión del metapaquete Mugar Argentina Setup.
+A diferencia de los módulos, los metapaquetes se utilizan para poder instalar múltiples extensiones. Además, no son un módulo ni contienen código por si mismos.
+Por el momento, el metapaquete contiene únicamente el módulo Mugar_ArgentinaRegions La idea es ir agregando los otros módulos definidos en el roadmap, a medida que vayan alcanzando estabilidad.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2019.02</title>
+      <link>/posts/backlog-2019-02/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-02/</guid>
+      <description>El viernes 1 de febrero (hace una semana) hicimos nuestro primer hangout abierto para conversar sobre varios temas que estaban a mitad de camino, algunos otros que estaban sin avance y alguna cosa que habíamos hecho no de la mejor manera.
+Desde la meetup de diciembre se viene trabajando en ordenar y facilitar todo lo que sea necesario para que podamos colaborar online.
+Se comenzó con una lista de temas que se venían conversando en Slack desde hacía varios días.</description>
+    </item>
+    
+    <item>
+      <title>Mugar_ArgentinaRegions 1.2.0</title>
+      <link>/posts/mugar_argentinaregions-1-2-0/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar_argentinaregions-1-2-0/</guid>
+      <description>Durante el mes de enero se estuvo trabajando en algunos de los tickets que teníamos creados para el módulo, y el viernes, luego de nuestra primera grooming (de la cual tendremos post resúmen), se decidió hacer algunos ajustes para respetar cuestiones de forma.
+Los cambios hechos en el módulo fueron:
+Se asignó el código ISO 3166-2 a cada provincia. (Ver en GitHub) Se creó un readme.md base para usar como modelo en los otros módulos.</description>
+    </item>
+    
+    <item>
+      <title>Mugar_ArgentinaRegions</title>
+      <link>/posts/mugar_argentinaregions/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar_argentinaregions/</guid>
+      <description>Tal como definiéramos en el hackatón de junio, y a pesar de haber ido más lento de lo deseado, podemos decir que tenemos un primer módulo oficial.
+El módulo se forkeó de Barbanet_ArgentinaRegions 1.0.0, el cual será deprecado.
+El código está disponible en Github y se puede instalar por Composer desde Packagist.
+Para instalarlo, usaremos composer:
+composer require mugar/module-argentina-regions Una vez que se haya instalado, deberemos activarlo.
+bin/magento module:enable Mugar_ArgentinaRegions Y ahora si, actualizar.</description>
+    </item>
+    
+  </channel>
+</rss>

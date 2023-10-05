@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Mugar Argentina Setup 1.0.0 - Mugar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/mugar-argentina-setup-1-0-0/" />
+
+  
+  
+  <link rel="stylesheet" href="/scss/style.scss">
+  
+  
+  <link rel="stylesheet" href="/css/override.min.854c885b0e155a66b102685c4531f8e24bd68d533487eceea0699ff7601dbc94.css">
+
+  
+    <meta name="description" content="En la semana se estuvo trabajando en adecuar el metapaquete que intenta ser una ayuda inicial al momento de adaptar Magento a nuestro país."/>
+    <meta property="og:title" content="Mugar Argentina Setup 1.0.0"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/mugar-argentina-setup-1-0-0/"/>
+    <meta property="og:image" content="/images/posts/2020/06/2020-06-18-01.png"/>
+    <meta property="og:description" content="En la semana se estuvo trabajando en adecuar el metapaquete que intenta ser una ayuda inicial al momento de adaptar Magento a nuestro país."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@holamugar"/>
+    <meta name="twitter:creator" content="@holamugar"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-código de conducta">
+                    <a href="/codigo-de-conducta/">Código de Conducta</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-autores">
+                    <a href="/autores/">Autores</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Mugar</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-código de conducta ">
+        <a href="/codigo-de-conducta/">
+          
+          <span>Código de Conducta</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-autores ">
+        <a href="/autores/">
+          
+          <span>Autores</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+      <div class="author">
+  <img width="30" class="author-image" src="/images/mugar-logo.png" />
+  <span>
+    
+  </span>
+  <span class="author-divider"></span>
+  <span class="author-date">Jueves 18 de Junio de 2020</span>
+</div>
+    
+    <div class="intro">
+      <h1>Mugar Argentina Setup 1.0.0<span class="dot">.</span></h1>
+      
+      <img src="/images/posts/2020/06/2020-06-18-01.png" />
+      
+    </div>
+    <div class="content">
+      <p>En la semana se estuvo trabajando en adecuar el metapaquete que intenta ser una ayuda inicial al momento de adaptar Magento a nuestro país.</p>
+<p>A diferencia de la versión anterior, hemos añadido el módulo de <a href="https://github.com/holamugar/language-es_ar">traducción a español es_AR</a>. Además, con nueva versión de <a href="https://github.com/holamugar/module-argentina-regions">Mugar_ArgentinaRegions</a>.</p>
+<p>La lista total de cambios sería:</p>
+<ul>
+<li>Se arregló y creó el paquete Mugar_Language-es_AR 1.0.0.</li>
+<li>Se normalizó estructura de Mugar_Language-es_AR y se llegó a versión 2.0.1.</li>
+<li>Se dio compatibilidad con PHP 7.1, 7.2, 7.3 y 7.4 únicamente a Mugar_Language-es_AR.</li>
+<li>Se cambió el instalador de Mugar_ArgentinaRegions a data patch.</li>
+<li>Se dio compatibilidad con PHP 7.2, 7.3 y 7.4 únicamente a Mugar_ArgentinaRegions y a Mugar_ArgentinaSetup.</li>
+<li>Se incluyó en el metapaquete el módulo de idioma.</li>
+<li>Se agregaron instrucciones de instalación (aunque quedó un error que agregamos como issue para quien quiera participar con correcciones sencillas)</li>
+</ul>
+<p>Los pasos para instalar son:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">composer require mugar/argentina-setup
+</span></span></code></pre></div><p>Una vez descargado nos tocará habilitar el módulo de provincias primero.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento module:enable Mugar_ArgentinaRegions
+</span></span></code></pre></div><p>Luego actualizamos la base de datos para instalar.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento setup:upgrade
+</span></span></code></pre></div><p>Lo siguiente será aplicar las traducciones.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento i18n:pack --mode<span class="o">=</span>replace -d vendor/mugar/language-es_ar/es_AR.csv es_AR
+</span></span></code></pre></div><p>Esto agregará para cada módulo el archivo de traducción en nuestro locale.</p>
+<p>Finalmente hacemos el deploy.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento setup:static-content:deploy es_AR
+</span></span></code></pre></div><p>Antes de terminar, por el terma de las provincias, limpiamos cache.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento cache:clean
+</span></span></code></pre></div><p>Y ahora si, ya deberías tener las traducciones y las provincias de Argentina funcionando.</p>
+<p>Ambos paquetes pueden también ser instalados de forma independiente.</p>
+<p>Si te interesa participar para mejorar o corregir (o incluso proponer) módulos que simplifiquen el proceso de regionalización de la tienda, podés participar en el canal #github que tenemos en <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg">Slack</a>.</p>
+
+    </div>
+  </div>
+  <div class="category">
+     
+<p>Categoría:
+     <a href="/categorias/extensiones/">extensiones</a>
+  </div>
+  <div class="tags">
+     
+<ul>
+     <li>
+        <a href="/tags/extensiones/">extensiones</a>
+    </li> <li>
+        <a href="/tags/mugar-argentina-regions/">mugar-argentina-regions</a>
+    </li> <li>
+        <a href="/tags/mugar-argentina-setup/">mugar-argentina-setup</a>
+    </li> <li>
+        <a href="/tags/mugar-language-es_ar/">mugar-language-es_ar</a>
+    </li> </ul>
+
+  </div>
+
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-facebook">
+        <a href="https://www.facebook.com/holamugar" title="Facebook" target="_blank" rel="noopener">
+          <img src="/images/social/facebook.png" width="24" height="24" alt="Facebook"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/holamugar" title="Github" target="_blank" rel="noopener">
+          <img src="/images/social/github.png" width="24" height="24" alt="Github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-instagram">
+        <a href="https://instagram.com/holamugar" title="Instagram" target="_blank" rel="noopener">
+          <img src="/images/social/instagram.png" width="24" height="24" alt="Instagram"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/company/mugar" title="Linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.png" width="24" height="24" alt="Linkedin"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-slack">
+        <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg" title="Slack" target="_blank" rel="noopener">
+          <img src="/images/social/slack.png" width="24" height="24" alt="Slack"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/holamugar" title="Twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.png" width="24" height="24" alt="Twitter"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

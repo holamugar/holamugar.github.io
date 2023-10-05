@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>roadmap on Mugar</title>
+    <link>/tags/roadmap/</link>
+    <description>Recent content in roadmap on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roadmap público y canal para ofertas de trabajo en Slack</title>
+      <link>/posts/roadmap-publico-y-canal-para-ofertas-de-trabajo-en-slack/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/roadmap-publico-y-canal-para-ofertas-de-trabajo-en-slack/</guid>
+      <description>Roadmap Uno de los temas que se conversaron en la última grooming tiene que ver con armar un plan sobre lo que decimos que queremos hacer.
+Hasta el momento todo se conversa y se acuerda, pero nunca queda fijado lo que decidimos (y gran parte no se cumple).
+Por este motivo vamos a tener un roadmap público para ordenar qué tenemos intención de desarrollar y en qué orden (aproximado).
+La idea es armar planes modestos, por trimestre.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pruebas de integración - Introducción - Mugar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/pruebas-de-integracion/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a098a9e958ab9c79270ab5503d20d4f4ed33fa3ffcc4115942e389f55df049a6.css">
+  
+  
+  <link rel="stylesheet" href="/css/override.min.854c885b0e155a66b102685c4531f8e24bd68d533487eceea0699ff7601dbc94.css">
+
+  
+    <meta name="description" content="Introducción a las pruebas de integración como parte de las buenas prácticas."/>
+    <meta property="og:title" content="Pruebas de integración - Introducción"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/pruebas-de-integracion/"/>
+    
+    <meta property="og:description" content="Introducción a las pruebas de integración como parte de las buenas prácticas."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@holamugar"/>
+    <meta name="twitter:creator" content="@holamugar"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-código de conducta">
+                    <a href="/codigo-de-conducta/">Código de Conducta</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-autores">
+                    <a href="/autores/">Autores</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Mugar</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-código de conducta ">
+        <a href="/codigo-de-conducta/">
+          
+          <span>Código de Conducta</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-autores ">
+        <a href="/autores/">
+          
+          <span>Autores</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+      <div class="author">
+  <img width="30" class="author-image" src="/images/mugar-logo.png" />
+  <span>
+    
+      
+        <span class="author-name">Manuel Cánepa</span>
+      
+    
+  </span>
+  <span class="author-divider"></span>
+  <span class="author-date">Jueves 5 de Octubre de 2023</span>
+</div>
+    
+    <div class="intro">
+      <h1>Pruebas de integración - Introducción<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p>En ésta primera entrega, se busca tener la base para futuras publicaciones más específicas sobre el tema. Antes de
+arrancar con las pruebas, es necesario configurar el entorno. Lo primero es crear la base de datos donde se
+ejecutaran los test, tengan en cuenta que se usa un entorno Magento, pero lo mismo aplica para cualquier proyecto que
+implemente pruebas de integración.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ warden db connect -uroot
+</span></span><span class="line"><span class="cl">MariaDB <span class="o">[</span>magento<span class="o">]</span>&gt; CREATE DATABASE magento_integration_tests<span class="p">;</span>
+</span></span><span class="line"><span class="cl">MariaDB <span class="o">[</span>magento<span class="o">]</span>&gt; GRANT ALL ON magento_integration_tests.* TO <span class="s1">&#39;magento_test&#39;</span>@<span class="s1">&#39;%&#39;</span> IDENTIFIED BY <span class="s1">&#39;magento&#39;</span><span class="p">;</span>
+</span></span></code></pre></div><p>Ejecutando esas lineas desde el directorio principal del proyecto se crea la base de datos magento_integration_tests y
+se le otorga permisos al usuario magento_test.</p>
+<p>Para poder configurar el uso de esta nueva base de datos se debe generar el siguiente archivo:</p>
+<p><code>dev/tests/integration/etc/install-config-mysql.php:</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;db-host&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;db&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;db-user&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;magento_test&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;db-password&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;magento&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;db-name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;magento_integration_tests&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;db-prefix&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;backend-frontname&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;backend&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;search-engine&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;elasticsearch7&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;elasticsearch-host&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;elasticsearch&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;elasticsearch-port&#39;</span> <span class="o">=&gt;</span> <span class="mi">9200</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;admin-user&#39;</span> <span class="o">=&gt;</span> <span class="nx">\Magento\TestFramework\Bootstrap</span><span class="o">::</span><span class="na">ADMIN_NAME</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;admin-password&#39;</span> <span class="o">=&gt;</span> <span class="nx">\Magento\TestFramework\Bootstrap</span><span class="o">::</span><span class="na">ADMIN_PASSWORD</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;admin-email&#39;</span> <span class="o">=&gt;</span> <span class="nx">\Magento\TestFramework\Bootstrap</span><span class="o">::</span><span class="na">ADMIN_EMAIL</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;admin-firstname&#39;</span> <span class="o">=&gt;</span> <span class="nx">\Magento\TestFramework\Bootstrap</span><span class="o">::</span><span class="na">ADMIN_FIRSTNAME</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;admin-lastname&#39;</span> <span class="o">=&gt;</span> <span class="nx">\Magento\TestFramework\Bootstrap</span><span class="o">::</span><span class="na">ADMIN_LASTNAME</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;amqp-host&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;rabbitmq&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;amqp-port&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;5672&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;amqp-user&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;guest&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;amqp-password&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;guest&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">];</span>
+</span></span></code></pre></div><p>Luego de esto, si es necesario agregar configuraciones especificas para el correcto funcionamiento de los módulos a
+testear, se deben guardar en el siguiente archivo:</p>
+<p><code>dev/tests/integration/etc/config-global.php:</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Ejemplo: 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">return</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;customer/password/limit_password_reset_requests_method&#39;</span> <span class="o">=&gt;</span> <span class="mi">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;admin/security/admin_account_sharing&#39;</span> <span class="o">=&gt;</span> <span class="mi">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;admin/security/limit_password_reset_requests_method&#39;</span> <span class="o">=&gt;</span> <span class="mi">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;some/custom/path&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;some-custom-value&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="p">];</span>
+</span></span></code></pre></div><p>Estas configuraciones serán globales, en caso de que algún test requiera una configuración particular se podrá usar la
+annotation @magentoConfigFixture</p>
+<p>Para ejecutar test, en mi caso para el proyecto de Tango Tiendas, copie el archivo
+dev/tests/integration/phpunit.xml.dist en
+dev/tests/integration/phpunit.xml y agregue las siguientes lineas:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;testsuite</span> <span class="na">name=</span><span class="s">&#34;Gento Integration Tests&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;directory&gt;</span>../../../vendor/gento-arg/module-*/src/Test/Integration<span class="nt">&lt;/directory&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/testsuite&gt;</span>
+</span></span></code></pre></div><p>De esa forma puedo ejecutar lo siguiente para correr los test de integracion:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ warden env shell
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> dev/tests/integration
+</span></span><span class="line"><span class="cl">$ php ../../../vendor/bin/phpunit --testsuite <span class="s1">&#39;Gento Integration Tests&#39;</span>
+</span></span></code></pre></div><p>Al ejecutar ese comando, va a ocurrir un error si es que hay algun problema de dependencias ya que las tablas no se
+instalaran. Primero hay que validar que todas las dependencias de los modulos sean correctas en los
+archivos <code>etc/module.xml</code> de cada modulo.</p>
+<p>Si despues de eso, sigue dando error (como fue mi caso), puede que haga falta deshabilitar algún módulo durante la
+instalación y luego volver a habilitarlo. Para ello, podemos correr el script de instalacion que se podrá ver como parte
+del error que arroje el comando anterior, por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Next Magento<span class="se">\F</span>ramework<span class="se">\E</span>xception<span class="se">\L</span>ocalizedException: Command returned non-zero <span class="nb">exit</span> code:
+</span></span><span class="line"><span class="cl"><span class="sb">`</span>/usr/bin/php -f <span class="s1">&#39;/var/www/html/bin/magento&#39;</span> setup:install -vvv --db-host<span class="o">=</span><span class="s1">&#39;db&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>              --db-user<span class="o">=</span><span class="s1">&#39;magento_test&#39;</span> --db-password<span class="o">=</span><span class="s1">&#39;magento&#39;</span> --db-name<span class="o">=</span><span class="s1">&#39;magento_integration_tests&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>              --db-prefix<span class="o">=</span><span class="s1">&#39;&#39;</span> --backend-frontname<span class="o">=</span><span class="s1">&#39;backend&#39;</span> --search-engine<span class="o">=</span><span class="s1">&#39;elasticsearch7&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>              --elasticsearch-host<span class="o">=</span><span class="s1">&#39;elasticsearch&#39;</span> --elasticsearch-port<span class="o">=</span><span class="s1">&#39;9200&#39;</span> --admin-user<span class="o">=</span><span class="s1">&#39;user&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>              --admin-password<span class="o">=</span><span class="s1">&#39;password1&#39;</span> --admin-email<span class="o">=</span><span class="s1">&#39;admin@example.com&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>              --admin-firstname<span class="o">=</span><span class="s1">&#39;firstname&#39;</span> --admin-lastname<span class="o">=</span><span class="s1">&#39;lastname&#39;</span> --amqp-host<span class="o">=</span><span class="s1">&#39;rabbitmq&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>              --amqp-port<span class="o">=</span><span class="s1">&#39;5672&#39;</span> --amqp-user<span class="o">=</span><span class="s1">&#39;guest&#39;</span> --amqp-password<span class="o">=</span><span class="s1">&#39;guest&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>              --magento-init-params<span class="o">=</span><span class="s1">&#39;MAGE_DIRS[etc][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/etc&amp;MAGE_DIRS[var][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var&amp;MAGE_DIRS[var_export][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var/export&amp;MAGE_DIRS[media][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/pub/media&amp;MAGE_DIRS[static][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/pub/static&amp;MAGE_DIRS[view_preprocessed][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var/view_preprocessed/pub/static&amp;MAGE_DIRS[code][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/generated/code&amp;MAGE_DIRS[cache][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var/cache&amp;MAGE_DIRS[log][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var/log&amp;MAGE_DIRS[session][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var/session&amp;MAGE_DIRS[tmp][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var/tmp&amp;MAGE_DIRS[upload][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var/upload&amp;MAGE_DIRS[pub][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/pub&amp;MAGE_DIRS[import_export][path]=/var/www/html/dev/tests/integration/tmp/sandbox-0-5c5a8a53947b9d438b48a3d1262ca4dfbbb7ae316d162990e13dabb483882f99/var&amp;MAGE_MODE=developer&#39;</span>
+</span></span><span class="line"><span class="cl">            2&gt;<span class="p">&amp;</span>1<span class="sb">`</span> in /var/www/html/vendor/magento/framework/Shell.php:66
+</span></span></code></pre></div><p>De ese error, extraemos el comando para instalar y agregamos el parametro &ndash;disable-modules y agregamos cada modulo
+separado por coma, por ejemplo los de Mageplaza:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento setup:install <span class="o">[</span>...<span class="o">]</span> --disable-modules<span class="o">=</span><span class="s1">&#39;Mageplaza_Core,Mageplaza_Smtp&#39;</span>
+</span></span></code></pre></div><p>En el caso de Mageplaza ocurre un error conocido que resulta de intentar crear un schema ANTES que ocurran los data y
+por ende que la entidad customer no exista. Para los modulos desarrollados por nosotros podemos usar un Proxy como
+indica el siguiente <a href="https://github.com/magento/magento2/issues/34220#issuecomment-932183698">comentario</a>.</p>
+<p>Si dentro del archivo phpunit.xml está habilitada la opción de TESTS_CLEANUP, los módulos deben ser desactivados por
+configuracion para que cada vez que se instale la base de datos, esos módulos no sean tenidos en cuenta, pero con esta
+combinación no podremos realizar test de integración o unitarios sobre dichos módulos.</p>
+<p>Luego de corregir todo lo que tengamos que corregir, se deberia poder ejecutar el comando de tests con un resultado
+similar al siguiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">www-data@magento-php-debug:/var/www/html/dev/tests/integration$ php ../../../vendor/bin/phpunit --testsuite <span class="s1">&#39;Gento Integration Tests&#39;</span>
+</span></span><span class="line"><span class="cl">PHPUnit 9.2.6 by Sebastian Bergmann and contributors.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Warning:       Using a custom <span class="nb">test</span> suite loader is deprecated
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">No tests executed!
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">===</span> Memory Usage System <span class="nv">Stats</span> <span class="o">===</span>
+</span></span><span class="line"><span class="cl">Memory usage <span class="o">(</span>OS<span class="o">)</span>:	133.16M <span class="o">(</span>172.93% of 77.00M reported by PHP<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Estimated memory leak:	56.16M <span class="o">(</span>42.17% of used memory<span class="o">)</span>
+</span></span></code></pre></div><p>En este caso, no hay test de integracion que se hayan ejecutado.</p>
+<p>Otra forma de ejecutar los tests de integración es ejecutando desde el directorio principal del proyecto lo siguiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ vendor/bin/phpunit -c <span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>/dev/tests/integration/phpunit.xml --testsuite <span class="s1">&#39;Gento Integration Tests&#39;</span>
+</span></span></code></pre></div><p>Para crear el primer test, y siempre basandonos en la configuración realizada previamente, es necesario crear la ruta
+Test/Integration dentro del directorio del módulo que creamos conveniente.</p>
+<p>Para poder realizar los test de integración, la mayoria de las veces es necesario que haya datos cargados, para eso
+Magento provee annotation como es el caso de @magentoDataFixture, esto permite crear un unico archivo php donde se
+carguen los datos y ese mismo archivo pueda ser utilizado en varios métodos, incluso pueda ser llamado y requerido de
+otros módulos.</p>
+<p>Un ejemplo sería dar de alta algunos productos para poder realizar operaciones con ellos. En el siguiente ejemplo se dan
+de alta productos en un schema, y pedidos en otro. Estos datos son cargados en la base de datos, pero Magento encapsula
+todas las consultas dentro de una transacción y luego de la ejecución hace rollback, de esta forma, los datos estarán
+disponibles para su uso, pero inmediatamente después de que el test sea ejecutado se revierte el dato para que las
+tablas se mantengan lo mas limpias posible:</p>
+<p><code>vendor/gento-arg/module-tango-tiendas/src/Test/Integration/Service/OrderSenderServiceTest.php:</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nx">Gento\TangoTiendas\Test\Integration\Service</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">OrderSenderServiceTest</span> <span class="k">extends</span> <span class="nx">\PHPUnit\Framework\TestCase</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="sd">/**
+</span></span></span><span class="line"><span class="cl"><span class="sd">     * @magentoDataFixture Gento_TangoTiendas::Test/_files/product_list.php
+</span></span></span><span class="line"><span class="cl"><span class="sd">     * @magentoDataFixture Gento_TangoTiendas::Test/_files/orders_to_publish.php
+</span></span></span><span class="line"><span class="cl"><span class="sd">     * @return void
+</span></span></span><span class="line"><span class="cl"><span class="sd">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">function</span> <span class="nf">testSuccessfullyPublishOrder</span><span class="p">()</span><span class="o">:</span> <span class="nx">void</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Dentro de este método se podrán obtener los datos guardados en esos dos archivos
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="o">...</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Para generar estos archivos simplemente se deben crear y escribir lo necesario para generar los datos en base de datos:</p>
+<p><code>vendor/gento-arg/module-tango-tiendas/src/Test/_files/product_list.php:</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">use</span> <span class="nx">Magento\Catalog\Api\Data\ProductInterfaceFactory</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">use</span> <span class="nx">Magento\Catalog\Api\ProductRepositoryInterface</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">use</span> <span class="nx">Magento\Catalog\Model\Product\Attribute\Source\Status</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">use</span> <span class="nx">Magento\Catalog\Model\Product\Type</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">use</span> <span class="nx">Magento\Framework\Api\SearchCriteriaBuilder</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">use</span> <span class="nx">Magento\TestFramework\Helper\Bootstrap</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">use</span> <span class="nx">Magento\TestFramework\Workaround\Override\Fixture\Resolver</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$objectManager</span> <span class="o">=</span> <span class="nx">Bootstrap</span><span class="o">::</span><span class="na">getObjectManager</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$productFactory</span> <span class="o">=</span> <span class="nv">$objectManager</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="nx">ProductInterfaceFactory</span><span class="o">::</span><span class="na">class</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$productRepository</span> <span class="o">=</span> <span class="nv">$objectManager</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="nx">ProductRepositoryInterface</span><span class="o">::</span><span class="na">class</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$productRepository</span><span class="o">-&gt;</span><span class="na">cleanCache</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$products</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;sku&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;sku-1&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;Simple product&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;price&#39;</span> <span class="o">=&gt;</span> <span class="mi">100000</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$products</span> <span class="k">as</span> <span class="nv">$productData</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$product</span> <span class="o">=</span> <span class="nv">$productFactory</span><span class="o">-&gt;</span><span class="na">create</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$product</span><span class="o">-&gt;</span><span class="na">setTypeId</span><span class="p">(</span><span class="nx">Type</span><span class="o">::</span><span class="na">TYPE_SIMPLE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="o">-&gt;</span><span class="na">setAttributeSetId</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="o">-&gt;</span><span class="na">setStockData</span><span class="p">([</span><span class="s1">&#39;qty&#39;</span> <span class="o">=&gt;</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;is_in_stock&#39;</span> <span class="o">=&gt;</span> <span class="k">true</span><span class="p">,</span> <span class="s1">&#39;manage_stock&#39;</span> <span class="o">=&gt;</span> <span class="k">true</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="o">-&gt;</span><span class="na">setStatus</span><span class="p">(</span><span class="nx">Status</span><span class="o">::</span><span class="na">STATUS_ENABLED</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="o">-&gt;</span><span class="na">setName</span><span class="p">(</span><span class="nv">$productData</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="o">-&gt;</span><span class="na">setSku</span><span class="p">(</span><span class="nv">$productData</span><span class="p">[</span><span class="s1">&#39;sku&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="o">-&gt;</span><span class="na">setPrice</span><span class="p">(</span><span class="nv">$productData</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$productRepository</span><span class="o">-&gt;</span><span class="na">save</span><span class="p">(</span><span class="nv">$product</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Luego, en el método que lo requiera, podemos obtener la información de este producto con su repositorio correspondiente:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">function</span> <span class="nf">getProductBySku</span><span class="p">(</span><span class="nv">$sku</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$productRepository</span> <span class="o">=</span> <span class="nv">$objectManager</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="nx">\Magento\Catalog\Api\ProductRepositoryInterface</span><span class="o">::</span><span class="na">class</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nv">$productRepository</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="nv">$sku</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></div><p>También pueden usarse fixtures de otros módulos si es que con eso nos sirve, por ejemplo se puede utilizar el de
+Magento_InventoryApi que genera una serie de productos y luego le establece el precio, stock y los asigna a un source:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="sd">/**
+</span></span></span><span class="line"><span class="cl"><span class="sd">    * @magentoDataFixture Magento_InventoryApi::Test/_files/products.php
+</span></span></span><span class="line"><span class="cl"><span class="sd">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">function</span> <span class="nf">testSuccessfullyPublishOrder</span><span class="p">()</span><span class="o">:</span> <span class="nx">void</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></div><p>Aunque parezca tedioso todo esto nos sirve para poder establecer una serie de datos con los que podremos contar para
+hacer las pruebas correspondientes. Más adelante voy a intentar publicar pruebas más complejas para compartir lo que me
+llevó un tiempo entender y que sea más fácil para quién intenta recorrer el camino del buen hábito.</p>
+
+    </div>
+  </div>
+  <div class="category">
+     
+<p>Categoría:
+     <a href="/categorias/testing/">testing</a>
+  </div>
+  <div class="tags">
+     
+<ul>
+     <li>
+        <a href="/tags/testing/">testing</a>
+    </li></ul>
+
+  </div>
+
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-facebook">
+        <a href="https://www.facebook.com/holamugar" title="Facebook" target="_blank" rel="noopener">
+          <img src="/images/social/facebook.png" width="24" height="24" alt="Facebook"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/holamugar" title="Github" target="_blank" rel="noopener">
+          <img src="/images/social/github.png" width="24" height="24" alt="Github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-instagram">
+        <a href="https://instagram.com/holamugar" title="Instagram" target="_blank" rel="noopener">
+          <img src="/images/social/instagram.png" width="24" height="24" alt="Instagram"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/company/mugar" title="Linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.png" width="24" height="24" alt="Linkedin"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-slack">
+        <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg" title="Slack" target="_blank" rel="noopener">
+          <img src="/images/social/slack.png" width="24" height="24" alt="Slack"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/holamugar" title="Twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.png" width="24" height="24" alt="Twitter"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

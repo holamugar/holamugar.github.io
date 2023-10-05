@@ -4,12 +4,13 @@ date: 2023-10-05
 categorias: [ "Testing" ]
 autores: [ "Manuel Cánepa" ]
 tags: [ "testing" ]
-description: "Introducción a las pruebas unitarias como parte de las buenas prácticas."
+description: "Introducción a las pruebas de integración como parte de las buenas prácticas."
 ---
 
-Antes de arrancar con las pruebas, es necesario configurar el entorno. Lo primero es crear la base de datos donde se
+En ésta primera entrega, se busca tener la base para futuras publicaciones más específicas sobre el tema. Antes de
+arrancar con las pruebas, es necesario configurar el entorno. Lo primero es crear la base de datos donde se
 ejecutaran los test, tengan en cuenta que se usa un entorno Magento, pero lo mismo aplica para cualquier proyecto que
-implemente pruebas unitarias.
+implemente pruebas de integración.
 
 ```shell
 $ warden db connect -uroot
@@ -68,14 +69,15 @@ return [
 Estas configuraciones serán globales, en caso de que algún test requiera una configuración particular se podrá usar la
 annotation @magentoConfigFixture
 
-Para ejecutar test, en mi caso para el proyecto de Tango, copie el archivo dev/tests/integration/phpunit.xml.dist en
+Para ejecutar test, en mi caso para el proyecto de Tango Tiendas, copie el archivo
+dev/tests/integration/phpunit.xml.dist en
 dev/tests/integration/phpunit.xml y agregue las siguientes lineas:
 
 ```xml
 
 <testsuite name="Gento Integration Tests">
-        <directory>../../../vendor/gento-arg/module-*/src/Test/Integration</directory>
-    </testsuite>
+    <directory>../../../vendor/gento-arg/module-*/src/Test/Integration</directory>
+</testsuite>
 ```
 
 De esa forma puedo ejecutar lo siguiente para correr los test de integracion:
@@ -116,10 +118,11 @@ bin/magento setup:install [...] --disable-modules='Mageplaza_Core,Mageplaza_Smtp
 
 En el caso de Mageplaza ocurre un error conocido que resulta de intentar crear un schema ANTES que ocurran los data y
 por ende que la entidad customer no exista. Para los modulos desarrollados por nosotros podemos usar un Proxy como
-indica el siguiente [comentario](https://github.com/magento/magento2/issues/34220#issuecomment-932183698). Si dentro del
-archivo phpunit.xml está habilitada la opción de TESTS_CLEANUP, los módulos deben ser desactivados por configuracion
-para que cada vez que se instale la base de datos, esos módulos no sean tenidos en cuenta, pero con esta combinación no
-podremos realizar test unitarios sobre dichos módulos.
+indica el siguiente [comentario](https://github.com/magento/magento2/issues/34220#issuecomment-932183698).
+
+Si dentro del archivo phpunit.xml está habilitada la opción de TESTS_CLEANUP, los módulos deben ser desactivados por
+configuracion para que cada vez que se instale la base de datos, esos módulos no sean tenidos en cuenta, pero con esta
+combinación no podremos realizar test de integración o unitarios sobre dichos módulos.
 
 Luego de corregir todo lo que tengamos que corregir, se deberia poder ejecutar el comando de tests con un resultado
 similar al siguiente:
@@ -176,6 +179,9 @@ class OrderSenderServiceTest extends \PHPUnit\Framework\TestCase
     public function testSuccessfullyPublishOrder(): void
     {
         // Dentro de este método se podrán obtener los datos guardados en esos dos archivos
+    ...
+    }
+}
 ```
 
 Para generar estos archivos simplemente se deben crear y escribir lo necesario para generar los datos en base de datos:
@@ -237,6 +243,8 @@ Magento_InventoryApi que genera una serie de productos y luego le establece el p
      */
     public function testSuccessfullyPublishOrder(): void
     {
+    
+    }
 ```
 
 Aunque parezca tedioso todo esto nos sirve para poder establecer una serie de datos con los que podremos contar para

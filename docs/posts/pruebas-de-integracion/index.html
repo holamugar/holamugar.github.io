@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Pruebas de integración - Mugar</title>
+  <title>Pruebas de integración - Introducción - Mugar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/favicon.png">
   <link rel="canonical" href="/posts/pruebas-de-integracion/" />
@@ -17,12 +17,12 @@
   <link rel="stylesheet" href="/css/override.min.854c885b0e155a66b102685c4531f8e24bd68d533487eceea0699ff7601dbc94.css">
 
   
-    <meta name="description" content="Introducción a las pruebas unitarias como parte de las buenas prácticas."/>
-    <meta property="og:title" content="Pruebas de integración"/>
+    <meta name="description" content="Introducción a las pruebas de integración como parte de las buenas prácticas."/>
+    <meta property="og:title" content="Pruebas de integración - Introducción"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="/posts/pruebas-de-integracion/"/>
     
-    <meta property="og:description" content="Introducción a las pruebas unitarias como parte de las buenas prácticas."/>
+    <meta property="og:description" content="Introducción a las pruebas de integración como parte de las buenas prácticas."/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@holamugar"/>
     <meta name="twitter:creator" content="@holamugar"/>
@@ -132,13 +132,14 @@
 </div>
     
     <div class="intro">
-      <h1>Pruebas de integración<span class="dot">.</span></h1>
+      <h1>Pruebas de integración - Introducción<span class="dot">.</span></h1>
       
     </div>
     <div class="content">
-      <p>Antes de arrancar con las pruebas, es necesario configurar el entorno. Lo primero es crear la base de datos donde se
+      <p>En ésta primera entrega, se busca tener la base para futuras publicaciones más específicas sobre el tema. Antes de
+arrancar con las pruebas, es necesario configurar el entorno. Lo primero es crear la base de datos donde se
 ejecutaran los test, tengan en cuenta que se usa un entorno Magento, pero lo mismo aplica para cualquier proyecto que
-implemente pruebas unitarias.</p>
+implemente pruebas de integración.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ warden db connect -uroot
 </span></span><span class="line"><span class="cl">MariaDB <span class="o">[</span>magento<span class="o">]</span>&gt; CREATE DATABASE magento_integration_tests<span class="p">;</span>
 </span></span><span class="line"><span class="cl">MariaDB <span class="o">[</span>magento<span class="o">]</span>&gt; GRANT ALL ON magento_integration_tests.* TO <span class="s1">&#39;magento_test&#39;</span>@<span class="s1">&#39;%&#39;</span> IDENTIFIED BY <span class="s1">&#39;magento&#39;</span><span class="p">;</span>
@@ -181,12 +182,13 @@ testear, se deben guardar en el siguiente archivo:</p>
 </span></span><span class="line"><span class="cl"><span class="p">];</span>
 </span></span></code></pre></div><p>Estas configuraciones serán globales, en caso de que algún test requiera una configuración particular se podrá usar la
 annotation @magentoConfigFixture</p>
-<p>Para ejecutar test, en mi caso para el proyecto de Tango, copie el archivo dev/tests/integration/phpunit.xml.dist en
+<p>Para ejecutar test, en mi caso para el proyecto de Tango Tiendas, copie el archivo
+dev/tests/integration/phpunit.xml.dist en
 dev/tests/integration/phpunit.xml y agregue las siguientes lineas:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nt">&lt;testsuite</span> <span class="na">name=</span><span class="s">&#34;Gento Integration Tests&#34;</span><span class="nt">&gt;</span>
-</span></span><span class="line"><span class="cl">        <span class="nt">&lt;directory&gt;</span>../../../vendor/gento-arg/module-*/src/Test/Integration<span class="nt">&lt;/directory&gt;</span>
-</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/testsuite&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;directory&gt;</span>../../../vendor/gento-arg/module-*/src/Test/Integration<span class="nt">&lt;/directory&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/testsuite&gt;</span>
 </span></span></code></pre></div><p>De esa forma puedo ejecutar lo siguiente para correr los test de integracion:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ warden env shell
 </span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> dev/tests/integration
@@ -212,10 +214,10 @@ separado por coma, por ejemplo los de Mageplaza:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bin/magento setup:install <span class="o">[</span>...<span class="o">]</span> --disable-modules<span class="o">=</span><span class="s1">&#39;Mageplaza_Core,Mageplaza_Smtp&#39;</span>
 </span></span></code></pre></div><p>En el caso de Mageplaza ocurre un error conocido que resulta de intentar crear un schema ANTES que ocurran los data y
 por ende que la entidad customer no exista. Para los modulos desarrollados por nosotros podemos usar un Proxy como
-indica el siguiente <a href="https://github.com/magento/magento2/issues/34220#issuecomment-932183698">comentario</a>. Si dentro del
-archivo phpunit.xml está habilitada la opción de TESTS_CLEANUP, los módulos deben ser desactivados por configuracion
-para que cada vez que se instale la base de datos, esos módulos no sean tenidos en cuenta, pero con esta combinación no
-podremos realizar test unitarios sobre dichos módulos.</p>
+indica el siguiente <a href="https://github.com/magento/magento2/issues/34220#issuecomment-932183698">comentario</a>.</p>
+<p>Si dentro del archivo phpunit.xml está habilitada la opción de TESTS_CLEANUP, los módulos deben ser desactivados por
+configuracion para que cada vez que se instale la base de datos, esos módulos no sean tenidos en cuenta, pero con esta
+combinación no podremos realizar test de integración o unitarios sobre dichos módulos.</p>
 <p>Luego de corregir todo lo que tengamos que corregir, se deberia poder ejecutar el comando de tests con un resultado
 similar al siguiente:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">www-data@magento-php-debug:/var/www/html/dev/tests/integration$ php ../../../vendor/bin/phpunit --testsuite <span class="s1">&#39;Gento Integration Tests&#39;</span>
@@ -257,7 +259,10 @@ tablas se mantengan lo mas limpias posible:</p>
 </span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">function</span> <span class="nf">testSuccessfullyPublishOrder</span><span class="p">()</span><span class="o">:</span> <span class="nx">void</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="c1">// Dentro de este método se podrán obtener los datos guardados en esos dos archivos
-</span></span></span></code></pre></div><p>Para generar estos archivos simplemente se deben crear y escribir lo necesario para generar los datos en base de datos:</p>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="o">...</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Para generar estos archivos simplemente se deben crear y escribir lo necesario para generar los datos en base de datos:</p>
 <p><code>vendor/gento-arg/module-tango-tiendas/src/Test/_files/product_list.php:</code></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
 </span></span><span class="line"><span class="cl">
@@ -305,6 +310,8 @@ Magento_InventoryApi que genera una serie de productos y luego le establece el p
 </span></span></span><span class="line"><span class="cl"><span class="sd">     */</span>
 </span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">function</span> <span class="nf">testSuccessfullyPublishOrder</span><span class="p">()</span><span class="o">:</span> <span class="nx">void</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span></code></pre></div><p>Aunque parezca tedioso todo esto nos sirve para poder establecer una serie de datos con los que podremos contar para
 hacer las pruebas correspondientes. Más adelante voy a intentar publicar pruebas más complejas para compartir lo que me
 llevó un tiempo entender y que sea más fácil para quién intenta recorrer el camino del buen hábito.</p>

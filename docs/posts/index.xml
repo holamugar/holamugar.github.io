@@ -8,13 +8,13 @@
     <language>es-ar</language>
     <lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pruebas de integración</title>
+      <title>Pruebas de integración - Introducción</title>
       <link>/posts/pruebas-de-integracion/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/posts/pruebas-de-integracion/</guid>
-      <description>Antes de arrancar con las pruebas, es necesario configurar el entorno. Lo primero es crear la base de datos donde se ejecutaran los test, tengan en cuenta que se usa un entorno Magento, pero lo mismo aplica para cualquier proyecto que implemente pruebas unitarias.
-$ warden db connect -uroot MariaDB [magento]&amp;gt; CREATE DATABASE magento_integration_tests; MariaDB [magento]&amp;gt; GRANT ALL ON magento_integration_tests.* TO &amp;#39;magento_test&amp;#39;@&amp;#39;%&amp;#39; IDENTIFIED BY &amp;#39;magento&amp;#39;; Ejecutando esas lineas desde el directorio principal del proyecto se crea la base de datos magento_integration_tests y se le otorga permisos al usuario magento_test.</description>
+      <description>En ésta primera entrega, se busca tener la base para futuras publicaciones más específicas sobre el tema. Antes de arrancar con las pruebas, es necesario configurar el entorno. Lo primero es crear la base de datos donde se ejecutaran los test, tengan en cuenta que se usa un entorno Magento, pero lo mismo aplica para cualquier proyecto que implemente pruebas de integración.
+$ warden db connect -uroot MariaDB [magento]&amp;gt; CREATE DATABASE magento_integration_tests; MariaDB [magento]&amp;gt; GRANT ALL ON magento_integration_tests.</description>
     </item>
     
     <item>

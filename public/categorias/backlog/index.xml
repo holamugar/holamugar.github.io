@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backlog on Mugar</title>
+    <link>/categorias/backlog/</link>
+    <description>Recent content in Backlog on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categorias/backlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backlog 2023 Q1</title>
+      <link>/posts/backlog-2023-q1/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2023-q1/</guid>
+      <description>Lentamente vamos haciendo algunas de las cosas que se conversaron en la última meetup, la número 14, en Buenos Aires.
+El mes pasado migramos el sitio de Wordpress a Hugo, y el repositorio con todo el contenido es público: https://github.com/holamugar/holamugar.github.io.
+Esto nos permitió eliminar la necesidad de mantener el sitio web (seguridad) y al traer el sitio a Github Pages, dejamos de abonar hosting mensual.
+También nos permite avanzar en un viejo proyecto.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2020.03</title>
+      <link>/posts/backlog-2020-03/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2020-03/</guid>
+      <description>El viernes pasado, como cada primer viernes de mes, se llevo a cabo la grooming session en la que intentamos repasar qué hicimos, qué queremos hacer y qué podemos hacer mejor.
+La reunión se dividió en dos temas:
+¿Cómo lograr mejor tracción y participación? ¿Cómo avanzar con los módulos que siempre decimos que queremos desarrollar? Con respecto a lo primero, se siguen pensando acciones o formas que ayuden a reducir cualquier fricción que pudiera presentarse para aquellos que aún no han participado, pero tienen ganas (y no se animaron todavía).</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2020.01</title>
+      <link>/posts/backlog-2020-01/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2020-01/</guid>
+      <description>El viernes pasado, como cada mes, se realizó una nueva grooming y se repasaron qué cosas se habían hecho y cuáles no desde la última llamada.
+Dado que no se hizo demasiado (es esperable en diciembre), la reunión fue bastante breve, pero se plantearon algunas cosas de aquí en más.
+Cada tanto mencionamos el roadmap, pero hasta ahora era algo abstracto (o hablado). En estos días vamos a estar publicando en el sitio el roadmap de este año, para que haya una guía pública de aquellos temas que decimos queremos desarrollar.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2019.12</title>
+      <link>/posts/backlog-2019-12/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-12/</guid>
+      <description>Retomamos esto que mal llamamos Backlog (si alguien tiene una sugerencia superadora, bienvenida sea).
+El viernes pasado tuvimos nuestra grooming mensual y se acordaron varias acciones.
+El eje central estuvo en Github y en los módulos que siempre decimos que quisiéramos escribir para simplificar la configuración y uso de Magento en Argentina.
+Finalmente, luego de tener publicados Mugar_ArgentinaRegions y el meta-paquete Mugar_ArgentinaSetup, retomamos un plan a corto plazo.
+Se repasó la discusión sobre por qué es necesario un tipo y número de documento tanto para el Billing como para el Shipping.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2019.06</title>
+      <link>/posts/backlog-2019-06/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-06/</guid>
+      <description>Posiblemente llamar backlog a este tipo de publicaciones no sea la mejor etiqueta. Esto es más bien una especie de status report, con un compendio de lo que hemos hecho en el último tiempo, lo que estamos haciendo hoy y lo que tenemos planeado en el corto y mediano plazo.
+Desde el último reporte/backlog, hemos hecho lo siguiente:
+Publicamos la versión 1.2.2 de Mugar_ArgentinaRegions. Verificamos la organización en Github.com. Arreglamos todos los repositorios para que sigan las definiciones que planteamos.</description>
+    </item>
+    
+    <item>
+      <title>Backlog 2019.02</title>
+      <link>/posts/backlog-2019-02/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/backlog-2019-02/</guid>
+      <description>El viernes 1 de febrero (hace una semana) hicimos nuestro primer hangout abierto para conversar sobre varios temas que estaban a mitad de camino, algunos otros que estaban sin avance y alguna cosa que habíamos hecho no de la mejor manera.
+Desde la meetup de diciembre se viene trabajando en ordenar y facilitar todo lo que sea necesario para que podamos colaborar online.
+Se comenzó con una lista de temas que se venían conversando en Slack desde hacía varios días.</description>
+    </item>
+    
+  </channel>
+</rss>

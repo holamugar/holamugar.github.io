@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Backlog 2019.12 - Mugar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/backlog-2019-12/" />
+
+  
+  
+  <link rel="stylesheet" href="/scss/style.scss">
+  
+  
+  <link rel="stylesheet" href="/css/override.min.854c885b0e155a66b102685c4531f8e24bd68d533487eceea0699ff7601dbc94.css">
+
+  
+    <meta name="description" content="Retomamos esto que mal llamamos Backlog (si alguien tiene una sugerencia superadora, bienvenida sea)."/>
+    <meta property="og:title" content="Backlog 2019.12"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/backlog-2019-12/"/>
+    <meta property="og:image" content="/images/posts/2019/12/2019-12-09-01.png"/>
+    <meta property="og:description" content="Retomamos esto que mal llamamos Backlog (si alguien tiene una sugerencia superadora, bienvenida sea)."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@holamugar"/>
+    <meta name="twitter:creator" content="@holamugar"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-código de conducta">
+                    <a href="/codigo-de-conducta/">Código de Conducta</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-autores">
+                    <a href="/autores/">Autores</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Mugar</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-código de conducta ">
+        <a href="/codigo-de-conducta/">
+          
+          <span>Código de Conducta</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-autores ">
+        <a href="/autores/">
+          
+          <span>Autores</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+      <div class="author">
+  <img width="30" class="author-image" src="/images/mugar-logo.png" />
+  <span>
+    
+  </span>
+  <span class="author-divider"></span>
+  <span class="author-date">Lunes 9 de Diciembre de 2019</span>
+</div>
+    
+    <div class="intro">
+      <h1>Backlog 2019.12<span class="dot">.</span></h1>
+      
+      <img src="/images/posts/2019/12/2019-12-09-01.png" />
+      
+    </div>
+    <div class="content">
+      <p>Retomamos esto que mal llamamos Backlog (si alguien tiene una sugerencia superadora, bienvenida sea).</p>
+<p>El viernes pasado tuvimos nuestra grooming mensual y se acordaron varias acciones.</p>
+<p>El eje central estuvo en <a href="https://github.com/holamugar">Github</a> y en los módulos que siempre decimos que quisiéramos escribir para simplificar la configuración y uso de Magento en Argentina.</p>
+<p>Finalmente, luego de tener publicados <a href="https://github.com/holamugar/module-argentina-regions">Mugar_ArgentinaRegions</a> y el meta-paquete <a href="https://github.com/holamugar/argentina-setup">Mugar_ArgentinaSetup</a>, retomamos un plan a corto plazo.</p>
+<p>Se repasó la discusión sobre por qué es necesario un tipo y número de documento tanto para el Billing como para el Shipping. Una vez aclarado el motivo (es necesario para las facturas y puede ser necesario para algunas empresas de logística) Oliverio nos mostró una demo funcional de su <a href="https://es.wikipedia.org/wiki/Prueba_de_concepto">PoC</a>.</p>
+<p>Este módulo guarda estrecha relación con otro que está en el roadmap, <a href="https://github.com/holamugar/module-afip">Mugar_Afip</a>. Este módulo debería permitir generar facturas electrónicas y así ayudar a las tiendas con esa tarea también.</p>
+<p>Cuando llegamos hasta aquí, estuvimos de acuerdo en que vamos a crear el módulo Mugar_Taxes y que servirá para cargar/instalar impuestos (inicialmente IVA) para las tiendas.</p>
+<p>Ese módulo, dado que es sencillo en términos de programación, sería usado para volver a insistir con la participación en Github, más allá del nivel de conocimiento técnico de quien quiera participar.</p>
+<p>De esta manera, el roadmap actual se definió así:</p>
+<ol>
+<li>Oliverio hará un PR a <a href="https://github.com/holamugar/module-customer-identification-document">Mugar_CustomerIdentificationDocument</a> con su PoC. Sobre eso, <a href="https://ar.linkedin.com/in/federicorivollier">Federico</a> ayudará con la creación de tickets e issues para avanzar con el desarrollo.</li>
+<li>Se creará el módulo Mugar_Taxes para que se trabaje en un módulo con reglas de impuestos, que se necesitará en un futuro para el módulo de creación de facturas electrónicas.</li>
+<li>Una vez que esos módulos estén listos y funcionando, se comenzará con la creación de la factura electrónica, no antes. Para eso <a href="https://ar.linkedin.com/in/matiasanoniz">Matías</a> comenzará a organizar y recolectar la información que se necesite para poder crear la integración.</li>
+</ol>
+<p>También participaron de la grooming <a href="https://ar.linkedin.com/in/arturoiglesias/es">Arturo</a> y <a href="https://ar.linkedin.com/in/damianculotta">Damián</a>.</p>
+<p>Para enterarse más o participar de estos proyectos basta con participar de las charlas que se den en el canal #github en <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg">Slack</a> o participar de las grooming sessions (que por ahora son 1 vez al mes).</p>
+<ul>
+<li>Vamos a preparar el locale para poder exponer la traducción en un CSV único (para evitar problema con traducciones diferentes para una misma clave en Crowdin).</li>
+<li>Hay que definir cada módulo que será incluído y crear los issues a su debido momento.</li>
+<li>Tenemos que buscar un formato más prolijo para el Roadmap y ajustar el cronograma.</li>
+<li>Vamos a continuar trabajando con el módulo <a href="https://github.com/holamugar/module-customer-identification-document">CustomerIdentificationDocument</a>. Por eso este lunes a las 17 hs. habrá una llamada vía Hangout para conversar sobre los issues creados y cómo definirlos.</li>
+</ul>
+<p>Un cambio que se hizo fue con el calendario público. Se ha creado uno nuevo, con los mismos eventos. El viejo calendario fue eliminado y el link al nuevo fue reemplazado en la página Calendario. Además, si te conectás a nuestro Slack, vas a recibir las notificaciones en el canal #general.</p>
+<p>Para participar de estas definiciones y proyectos sólo hay que sumarse al canal #github en <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg">Slack</a> o participar de las grooming sessions (que por ahora son 1 vez al mes).</p>
+
+    </div>
+  </div>
+  <div class="category">
+     
+<p>Categoría:
+     <a href="/categorias/backlog/">backlog</a>
+  </div>
+  <div class="tags">
+     
+<ul>
+     <li>
+        <a href="/tags/backlog/">backlog</a>
+    </li>  <li>
+        <a href="/tags/extensiones/">extensiones</a>
+    </li> <li>
+        <a href="/tags/magento/">magento</a>
+    </li> <li>
+        <a href="/tags/meetup/">meetup</a>
+    </li> <li>
+        <a href="/tags/rosario/">rosario</a>
+    </li></ul>
+
+  </div>
+
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-facebook">
+        <a href="https://www.facebook.com/holamugar" title="Facebook" target="_blank" rel="noopener">
+          <img src="/images/social/facebook.png" width="24" height="24" alt="Facebook"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/holamugar" title="Github" target="_blank" rel="noopener">
+          <img src="/images/social/github.png" width="24" height="24" alt="Github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-instagram">
+        <a href="https://instagram.com/holamugar" title="Instagram" target="_blank" rel="noopener">
+          <img src="/images/social/instagram.png" width="24" height="24" alt="Instagram"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/company/mugar" title="Linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.png" width="24" height="24" alt="Linkedin"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-slack">
+        <a href="https://join.slack.com/t/mugar/shared_invite/enQtNjUwNzExMzgyMjQ1LWM2Zjk3NThiYWVlYjMzNDcwOWRhZDliMmIxNGY5MDBkMDU1ZWJkNjEyM2U1NTU3NTE1ZDdlNTZmOWJlNGFhYzg" title="Slack" target="_blank" rel="noopener">
+          <img src="/images/social/slack.png" width="24" height="24" alt="Slack"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/holamugar" title="Twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.png" width="24" height="24" alt="Twitter"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

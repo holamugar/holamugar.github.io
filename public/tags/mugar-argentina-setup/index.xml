@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mugar-argentina-setup on Mugar</title>
+    <link>/tags/mugar-argentina-setup/</link>
+    <description>Recent content in mugar-argentina-setup on Mugar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mugar-argentina-setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mugar Argentina Setup 1.0.0</title>
+      <link>/posts/mugar-argentina-setup-1-0-0/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar-argentina-setup-1-0-0/</guid>
+      <description>En la semana se estuvo trabajando en adecuar el metapaquete que intenta ser una ayuda inicial al momento de adaptar Magento a nuestro país.
+A diferencia de la versión anterior, hemos añadido el módulo de traducción a español es_AR. Además, con nueva versión de Mugar_ArgentinaRegions.
+La lista total de cambios sería:
+Se arregló y creó el paquete Mugar_Language-es_AR 1.0.0. Se normalizó estructura de Mugar_Language-es_AR y se llegó a versión 2.0.1. Se dio compatibilidad con PHP 7.</description>
+    </item>
+    
+    <item>
+      <title>Mugar Argentina Setup</title>
+      <link>/posts/mugar-argentina-setup/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mugar-argentina-setup/</guid>
+      <description>Siguiendo con la idea de armar un paquete de módulos que sirvan para configurar y adaptar la tienda a las necesidades y usos de Argentina, hemos creado la primera versión del metapaquete Mugar Argentina Setup.
+A diferencia de los módulos, los metapaquetes se utilizan para poder instalar múltiples extensiones. Además, no son un módulo ni contienen código por si mismos.
+Por el momento, el metapaquete contiene únicamente el módulo Mugar_ArgentinaRegions La idea es ir agregando los otros módulos definidos en el roadmap, a medida que vayan alcanzando estabilidad.</description>
+    </item>
+    
+  </channel>
+</rss>
